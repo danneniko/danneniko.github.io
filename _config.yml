@@ -1,0 +1,13 @@
+# Site settings
+title: Daniel Nikolovski | Web / UX / SEO
+email: hello@danielnikolovski.com
+description: > # this means to ignore newlines until "baseurl:"
+  I am a Web designer from Sweden, with a burning passion for UX & SEO.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://danielnikolovski.com" # the base hostname & protocol for your site
+twitter_username: danneniko
+github_username:  danneniko
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
