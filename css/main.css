@@ -755,12 +755,6 @@ p {
 p > a {
     color: hsl(199, 92%, 39%);
 }
-.subpage {
-    opacity: 0;
-}
-.colWrapper {
-    opacity: 0;
-}
 /*
 @-webkit-keyframes fadeout {
     0% {
