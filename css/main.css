@@ -777,17 +777,89 @@ p > a {
         opacity: 1;
     }
 }
+@-moz-keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-moz-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-o-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .fadeout {
     -webkit-animation: fadeout .5s ease-out;
     -webkit-animation-delay: .1s;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-iteration-count: 1;
+    -moz-animation: fadeout .5s ease-out;
+    -moz-animation-delay: .1s;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-iteration-count: 1;
+    -o-animation: fadeout .5s ease-out;
+    -o-animation-delay: .1s;
+    -o-animation-fill-mode: forwards;
+    -o-animation-iteration-count: 1;
+    animation: fadeout .5s ease-out;
+    animation-delay: .1s;
+    animation-fill-mode: forwards;
+   	animation-iteration-count: 1;
 }
 .fadein {
     -webkit-animation: fadein .6s ease-in;
     -webkit-animation-delay: .2s;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-iteration-count: 1;
+    -moz-animation: fadein .6s ease-in;
+    -moz-animation-delay: .2s;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-iteration-count: 1;
+    -o-animation: fadein .6s ease-in;
+    -o-animation-delay: .2s;
+    -o-animation-fill-mode: forwards;
+    -o-animation-iteration-count: 1;
+    animation: fadein .6s ease-in;
+    animation-delay: .2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
 /* ===============================
    Portfolio
