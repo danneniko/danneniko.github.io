@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:3888d4f94394fdda6a05a2aab46fe54a:8f70c21f90891814991986e28fc01122:94288b65c6eccffa1de71ef08c3c37cc$ -->
+<TextureAtlas imagePath="sprites_starling.png">
+    <SubTexture name="Spor0000" x="131" y="420" width="127" height="128"/>
+    <SubTexture name="Spor0001" x="261" y="290" width="127" height="128"/>
+    <SubTexture name="Spor0002" x="2" y="318" width="127" height="128"/>
+    <SubTexture name="Spor0003" x="132" y="290" width="127" height="128"/>
+    <SubTexture name="Spor0004" x="261" y="160" width="127" height="128"/>
+    <SubTexture name="Spor0005" x="132" y="160" width="127" height="128"/>
+    <SubTexture name="zombie00" x="2" y="160" width="128" height="156"/>
+    <SubTexture name="zombie01" x="262" y="2" width="128" height="156"/>
+    <SubTexture name="zombie02" x="132" y="2" width="128" height="156"/>
+    <SubTexture name="zombie03" x="2" y="2" width="128" height="156"/>
+</TextureAtlas>

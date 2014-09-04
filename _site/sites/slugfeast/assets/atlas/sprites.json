@@ -1,0 +1,36 @@
+{"frames": [
+
+{
+	"filename": "zombie0000.png",
+	"frame": {"x":106,"y":2,"w":102,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":124},
+	"sourceSize": {"w":102,"h":124}
+},
+{
+	"filename": "zombie0001.png",
+	"frame": {"x":2,"y":129,"w":102,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":124},
+	"sourceSize": {"w":102,"h":124}
+},
+{
+	"filename": "zombie0002.png",
+	"frame": {"x":2,"y":2,"w":102,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":125},
+	"sourceSize": {"w":102,"h":125}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "sprites.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:fc47c65becda36d36cf0f8de1eed73dd:fdd5dc95ec8568b46b64990b9aa6ac0a:1eabdf11f75e3a4fe3147baf7b5be24b$"
+}
+}

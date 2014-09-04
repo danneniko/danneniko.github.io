@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fifa 14 quickmenu</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, width=480">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <script src="js/vendor/jquery.ui.touch-punch.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+    	<div class="iphone">
+    		<img class="tint" src="img/iphone.png">
+	    	<div class="viewport" id="viewport">
+	    		<div class="intro hidden">
+	    			<form class="hidden">
+	    				<img src="img/FIFA14.png">
+						<input type="text" placeholder="EA Username">
+						<input type="password" placeholder="EA Password">
+						<button type="button">LOGIN</button>
+						<p>Don't have an account? <a href="#">Create one now!</a></p>
+					</form>
+					<div class="introbg hidden"></div>
+	    		</div>
+	    		<div class="waitmatch hidden">
+	    			Waiting for the match to start...
+					<img src="img/loader.gif">
+				</div>
+				<div class="waitmatchbg hidden"></div>
+	    		<div class="theapp">
+					<div class="grass">
+					    <div class="field">
+					    	<div class="changes">
+					    		<div class="playerinout">
+						    		<div class="playerin"></div>
+						    		<div class="playerout"></div>
+					    			<div class="counter"><span></span></div>
+					    		</div>
+					    		<button class="button">CANCEL</button>
+					    	</div>
+							<div class="logout">
+								<div class="sliderbtn"></div>
+								<i class="fa fa-power-off"></i>
+							</div>
+							<div class="logoutpopup hidden">
+								<p>Are you sure you want to quit?</p>
+					    		<button class="btn quit">YES</button>
+					    		<button class="btn abort">NO</button>
+							</div>
+					    	<img class="connection" src="img/connection.png">
+					    	<div class="substitutes">
+					    		<div class="sliderarrow ui-droppable">
+					    			<div class="bordersmall"></div>
+					    			<div class="borderbig"></div>
+					    		</div>
+					    	Substitutions
+					    	</div>
+					        <div class="attack"></div>
+					        <div class="midfield"></div>
+					        <div class="defense"></div>
+					        <div class="keeper"></div>
+					        <div class="player lw ui-draggable ui-droppable">
+					            <span class="playernumber dble">11</span>
+					            <span class="pos">LW</span>
+					            <span class="playername">Neymar</span>
+					            <span class="staminabar">
+					                <span class="stamina trekvarts"></span>
+					            </span>
+					        </div>
+					        <div class="player st ui-draggable ui-droppable">
+					            <span class="playernumber dble">10</span>
+					            <span class="pos">ST</span>
+					            <span class="playername">Ibrahimovic</span>
+					            <span class="staminabar">
+					                <span class="stamina full"></span>
+					            </span>
+					        </div>
+					        <div class="player rw ui-draggable ui-droppable">
+					            <span class="playernumber">7</span>
+					            <span class="pos">RW</span>
+					            <span class="playername">Pedro</span>
+					            <span class="staminabar">
+					                <span class="stamina sixty"></span>
+					            </span>
+					        </div>
+					        <div class="player lm ui-draggable ui-droppable">
+					            <span class="playernumber">8</span>
+					            <span class="pos">LM</span>
+					            <span class="playername">Nasri</span>
+					            <span class="staminabar">
+					                <span class="stamina full"></span>
+					            </span></div>
+					        <div class="player cm ui-draggable ui-droppable">
+					            <span class="playernumber dble">42</span>
+					            <span class="pos">CM</span>
+					            <span class="playername">Yaya Toure</span>
+					            <span class="staminabar">
+					                <span class="stamina sixty"></span>
+					            </span></div>
+					        <div class="player rm ui-draggable ui-droppable">
+					            <span class="playernumber dble">29</span>
+					            <span class="pos">RM</span>
+					            <span class="playername">Lucas</span>
+					            <span class="staminabar">
+					                <span class="stamina low"></span>
+					            </span></div>
+					        <div class="player lb ui-draggable ui-droppable">
+					            <span class="playernumber dble">16</span>
+					            <span class="pos">LB</span>
+					            <span class="playername">Lahm</span>
+					            <span class="staminabar">
+					                <span class="stamina trekvarts"></span>
+					            </span></div>
+					        <div class="player lcb ui-draggable ui-droppable">
+					            <span class="playernumber">3</span>
+					            <span class="pos">CB</span>
+					            <span class="playername">Chiellini</span>
+					            <span class="staminabar">
+					                <span class="stamina lower"></span>
+					            </span></div>
+					        <div class="player rcb ui-draggable ui-droppable">
+					            <span class="playernumber dble">33</span>
+					            <span class="pos">CB</span>
+					            <span class="playername">Thiago Silva</span>
+					            <span class="staminabar">
+					                <span class="stamina trekvarts"></span>
+					            </span></div>
+					        <div class="player rb ui-draggable ui-droppable">
+					            <span class="playernumber">2</span>
+					            <span class="pos">RB</span>
+					            <span class="playername">Dani Alves</span>
+					            <span class="staminabar">
+					                <span class="stamina full"></span>
+					            </span></div>
+					        <div class="player gk ui-draggable ui-droppable">
+					            <span class="playernumber">1</span>
+					            <span class="pos">GK</span>
+					            <span class="playername">Neuer</span>
+					            <span class="staminabar">
+					                <span class="stamina full"></span>
+					            </span></div>
+					        <div class="player subs st ui-draggable ui-droppable">
+					            <span class="playernumber dble">99</span>
+					            <span class="pos">ST</span>
+					            <span class="playername">Messi</span>
+					            <span class="staminabar">
+					                <span class="stamina full"></span>
+					            </span>
+					        </div>
+					        <div class="player subs st ui-draggable ui-droppable">
+					            <span class="playernumber dble">98</span>
+					            <span class="pos">LW</span>
+					            <span class="playername">Ronaldo</span>
+					            <span class="staminabar">
+					                <span class="stamina full"></span>
+					            </span>
+					        </div>
+					        <div class="player subs st ui-draggable ui-droppable">
+					            <span class="playernumber dble">97</span>
+					            <span class="pos">RW</span>
+					            <span class="playername">Robben</span>
+					            <span class="staminabar">
+					                <span class="stamina full"></span>
+					            </span>
+					        </div>
+					        <div class="player subs st ui-draggable ui-droppable">
+					            <span class="playernumber dble">96</span>
+					            <span class="pos">LM</span>
+					            <span class="playername">Ribery</span>
+					            <span class="staminabar">
+					                <span class="stamina full"></span>
+					            </span>
+					        </div>
+					        <div class="player subs st ui-draggable ui-droppable">
+					            <span class="playernumber dble">95</span>
+					            <span class="pos">RM</span>
+					            <span class="playername">Bale</span>
+					            <span class="staminabar">
+					                <span class="stamina full"></span>
+					            </span>
+					        </div>
+					        <div class="player subs st ui-draggable ui-droppable">
+					            <span class="playernumber dble">94</span>
+					            <span class="pos">CM</span>
+					            <span class="playername">Iniesta</span>
+					            <span class="staminabar">
+					                <span class="stamina full"></span>
+					            </span>
+					        </div>
+					        <div class="player subs st ui-draggable ui-droppable">
+					            <span class="playernumber dble">93</span>
+					            <span class="pos">CB</span>
+					            <span class="playername">David Luiz</span>
+					            <span class="staminabar">
+					                <span class="stamina full"></span>
+					            </span>
+					        </div>
+					    </div>
+					</div>
+
+					<div class="formations">
+					    Formations
+					    <img src="img/prev.png" class="prev">
+					    <img src="img/next.png" class="next">
+					    <div class="fourthreethree active"><img src="img/fourthreethree.png"></div>
+					    <div class="fourfourtwo hidden"><img src="img/fourfourtwo.png"></div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
