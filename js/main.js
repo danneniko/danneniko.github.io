@@ -1,15 +1,12 @@
 $(function() {
 
-  var subpage = $('.subpage');
-  var grid = $('.colWrapper');
-  var item = $('.colWrapper a')
-  var figcaption = $('figcaption');
-  var figimg = $('figure img');  
+  var uparrow = $('#uparrow');
 
-  subpage.add(grid).addClass('fadein');
-
-  item.click(function() {
-    grid.removeClass('fadein');
-    grid.addClass('fadeout');
+  uparrow.each(function(){
+      $(this).click(function(){ 
+          $('html,body').animate({ scrollTop: 0 }, 'normal');
+          return false; 
+      });
   });
+
 });
