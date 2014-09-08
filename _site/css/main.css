@@ -898,13 +898,14 @@ p > a {
     display: none;
 }
 .box figure img {
+    width:70%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
 }
-.alldindauti img, .slugfeast img, .tjanster img {
+.alldindauti img, .slugfeast img, .tjanster img, .lemonbite img {
     width: 50% !important;
 }
 .box.fifa {
@@ -989,7 +990,6 @@ p > a {
 .site-footer .social .fa:hover {
     color:#0784BE;
 }
-
 .pagenav {
     float:left;
 }
@@ -1015,7 +1015,9 @@ p > a {
     font-size:24px;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);    
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);    
 }
 .pagenavWrapper:before, .pagenavWrapper:after {
     content: " ";
@@ -1136,6 +1138,7 @@ p > a {
         overflow: hidden;
     }
     .box figure img {
+        width:inherit;
         -webkit-transition: -webkit-transform 0.4s ease-in-out;
         -moz-transition: -moz-transform 0.4s ease-in-out;
         transition: transform 0.4s ease-in-out;
