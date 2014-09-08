@@ -976,7 +976,7 @@ p > a {
     padding: 0;
 }
 .site-footer .social {
-    float:right;
+    float:left;
     margin-top:1em;
 }
 .site-footer .social .fa {
@@ -990,14 +990,15 @@ p > a {
 .site-footer .social .fa:hover {
     color:#0784BE;
 }
-
-
 @media (min-width: 768px) {
     .box {
         width: 33.33333%;
     }
 }
 @media (min-width: 1025px) {
+	.site-footer .social {
+		float:right;
+	}
     header h1 {
         font-size: 60px;
         margin: 0.67em 0;
