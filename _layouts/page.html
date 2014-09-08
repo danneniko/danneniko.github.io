@@ -11,6 +11,32 @@
         {{ content }}
     </main>
 
+    <div class="pagenavWrapper">
+	    <nav class="pagenav">
+	    	<a href="{{ site.url }}">
+			    <span class="pagenavitem">
+			    	<i class="fa fa-th"></i>
+			    </span>
+		    </a>
+			{% if page.previous_page %}					    
+	    	<a href="{{ site.baseurl }}/{{ page.previous_page }}">		    
+				<span class="pagenavitem">
+					<i class="fa fa-angle-left"></i>
+				</span>
+			</a>
+			{% else %}
+			{% endif %}
+
+			{% if page.next_page %}			
+		    	<a href="{{ site.baseurl }}/{{ page.next_page }}">			
+					<span class="pagenavitem">
+						<i class="fa fa-angle-right"></i>
+					</span>
+				</a>
+			{% else %}
+			{% endif %}
+	    </nav>
+    </div>
     {% include footer.html %}
 
   </body>
