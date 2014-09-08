@@ -718,6 +718,17 @@ header h1 {
     line-height: 0.8;
     margin-top: 10px;
     margin-bottom: 0;
+    color:#222;
+    display:inline-block;
+    transition: color .15s ease-out;
+    -webkit-transition: color .15s ease-out;
+    -moz-transition: color .15s ease-out;    
+}
+header h1:hover {
+    color:hsl(199, 92%, 39%);
+}
+header a {
+    text-decoration:none;            
 }
 header h4 {
     font-family: "futura-pt", sans-serif;
