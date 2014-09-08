@@ -992,7 +992,7 @@ p > a {
 }
 
 .pagenav {
-    float:right;
+    float:left;
 }
 .pagenav .pagenavitem {
     width:50px;
@@ -1157,5 +1157,9 @@ p > a {
     }
     .box figure img.landgrenimg {
         width: 49%;
+    }
+
+    .pagenav {
+        float:right;
     }
 }
