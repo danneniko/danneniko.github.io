@@ -898,14 +898,13 @@ p > a {
     display: none;
 }
 .box figure img {
-    width: 70%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
 }
-.lemonbite img, .alldindauti img, .slugfeast img {
+.alldindauti img, .slugfeast img, .tjanster img {
     width: 50% !important;
 }
 .box.fifa {
@@ -962,7 +961,7 @@ p > a {
     clear: both;
 }
 .site-footer {
-    padding-bottom: 35px;    
+    margin: 0.3em 0;
 }
 .contact a {
     font-family: "futura-pt", sans-serif;
@@ -1038,7 +1037,7 @@ p > a {
 	}
     header h1 {
         font-size: 60px;
-        margin: 0.67em 0;
+        margin: 0.3em 0;
         margin-bottom: 0;
     	margin-left: -5px;        
     }
@@ -1048,7 +1047,6 @@ p > a {
     }
     .container {
         max-width: 1200px;
-        padding: 0 !important;
     }
     p > a {
         text-decoration: none;
