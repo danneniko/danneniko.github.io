@@ -8,8 +8,6 @@ url: "http://danielnikolovski.com" # the base hostname & protocol for your site
 twitter_username: danneniko
 github_username:  danneniko
 highlighter: rouge
-gems: 
-  -jekyll sitemap
 
 # Build settings
 markdown: kramdown
