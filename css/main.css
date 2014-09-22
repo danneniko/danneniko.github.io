@@ -722,13 +722,13 @@ header h1 {
     display:inline-block;
     transition: color .15s ease-out;
     -webkit-transition: color .15s ease-out;
-    -moz-transition: color .15s ease-out;    
+    -moz-transition: color .15s ease-out;
 }
 header h1:hover {
     color:hsl(199, 92%, 39%);
 }
 header a {
-    text-decoration:none;            
+    text-decoration:none;
 }
 header h4 {
     font-family: "futura-pt", sans-serif;
@@ -873,6 +873,15 @@ p > a {
 .site-footer {
     margin: 0.3em 0;
 }
+.site-footer .row {
+  margin:0;
+}
+.site-footer .col-lg-4 {
+  padding:0;
+}
+.site-footer .col-lg-4:nth-child(2) {
+  margin: 20px 0;
+}
 .contact a {
     font-family: "futura-pt", sans-serif;
     margin-top: 2px;
@@ -905,19 +914,19 @@ p > a {
 .pagenav .pagenavitem {
     width:50px;
     height:50px;
-    background:#222;    
+    background:#222;
     text-align:center;
     display:inline-block;
     cursor:pointer;
     transition: background .15s ease-out;
     -webkit-transition: background .15s ease-out;
-    -moz-transition: background .15s ease-out;    
+    -moz-transition: background .15s ease-out;
 }
 .pagenav a {
-    text-decoration: none;    
+    text-decoration: none;
 }
 .pagenav .pagenavitem:hover {
-    background:#0784BE;   
+    background:#0784BE;
 }
 .pagenav .fa {
     color:#fff;
@@ -926,7 +935,7 @@ p > a {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);    
+    -moz-transform: translateY(-50%);
 }
 .pagenavWrapper:before, .pagenavWrapper:after {
     content: " ";
@@ -941,6 +950,9 @@ p > a {
     .box {
         width: 33.33333%;
     }
+    .site-footer .col-lg-4:nth-child(2) {
+      margin: 0;
+    }
 }
 @media (min-width: 1025px) {
 	.site-footer .social {
@@ -950,7 +962,7 @@ p > a {
         font-size: 60px;
         margin: 0.3em 0;
         margin-bottom: 0;
-    	margin-left: -5px;        
+    	margin-left: -5px;
     }
     header h4 {
         margin-bottom: 0;

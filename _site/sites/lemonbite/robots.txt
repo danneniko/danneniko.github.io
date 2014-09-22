@@ -1,7 +1,0 @@
-# robotstxt.org/
-
-User-agent: *
-Disallow: /accessequipment/
-Disallow: /access/
-Disallow: /testing123/
-Disallow: /sample-page/
