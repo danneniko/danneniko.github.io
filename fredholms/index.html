@@ -36,12 +36,12 @@
   <div class="header">
     <div class="wrap">
       <a class="logo" href="/" alt="Fredholms"><img src="/tpl/css/images/logo.jpg" alt="Fredholms"></a>
-      <span class="menutoggleWrapper">
+      <span class="menutoggleWrapper hidden-lg">
         <img class="menutoggler" src="http://danielnikolovski.com/fredholms/menutoggler.svg">
         <img class="menuclose" src="http://danielnikolovski.com/fredholms/menuclose.svg">
       </span>
 
-      <nav class="mobile-navigation visible-xs">
+      <nav class="mobile-navigation hidden-lg">
         <a href="">Krog</a>
         <a href="">Mat och Vinbar</a>
         <a href="">Catering</a>
@@ -50,7 +50,7 @@
         <a href="">Wanås</a>
         <a href="">Företaget</a>
       </nav>
-      <ul class="navigation">
+      <ul class="navigation visible-lg">
         <li id="pid_3"><a href="/Krog"><span>Krog</span></a><ul><li id="pid_84"><a href="/Frukostbuffe">Frukostbuffé</a></li><li id="pid_9"><a href="/Lunch">Lunch</a></li><li id="pid_83"><a href="/Veckansbonus">Veckans bonus</a></li><li id="pid_11"><a href="/Julbord">Jullunch</a></li><li id="pid_54"><a href="/Matbutiken">Matbutiken</a></li><li id="pid_47"><a href="/400-arsmeny">400 årsmeny</a></li><li id="pid_53"><a href="/Konferens-eller-affarsmoten">Kreativa möten</a></li><li id="pid_10"><a href="/Middag">Middag</a></li></ul></li><li id="pid_4"><a href="/Mat-och-vinbar"><span>Mat och vinbar</span></a><ul><li id="pid_82"><a href="/Veckans-bonus">Veckans bonus</a></li><li id="pid_15"><a href="/Mat-och-vinbar-lunch">Lunch</a></li><li id="pid_50"><a href="/Boka-bord-">Boka bord </a></li><li id="pid_77"><a href="/Brunch">Brunch</a></li><li id="pid_48"><a href="/Smorrebrod">Smörrebröd</a></li><li id="pid_39"><a href="/Drinkar">Fransk gourmet</a></li><li id="pid_16"><a href="/Kvall">A la Carté</a></li><li id="pid_34"><a href="/Mat-och-vinbar-Vinmeny">Vinmeny</a></li><li id="pid_38"><a href="/Dryck">Dryck</a></li><li id="pid_58"><a href="/Mat--Vinbar---bildarkiv"> Bildarkiv</a></li></ul></li><li id="pid_5"><a href="/Catering"><span>Catering</span></a><ul><li id="pid_85"><a href="/Nyarsmeny">Nyårsmeny</a></li><li id="pid_78"><a href="/Julbord--jultallrik">Julbord & jultallrik</a></li><li id="pid_46"><a href="/400-ars-Meny">400 års Meny</a></li><li id="pid_18"><a href="/Catering-Buffeer">Bufféer</a></li><li id="pid_19"><a href="/Catering-Menyer">Menyer</a></li><li id="pid_20"><a href="/Catering-Cocktailtilltugg">Mingelmat</a></li><li id="pid_21"><a href="/Catering-Husmanskost">Husmanskost</a></li><li id="pid_22"><a href="/Catering-Brollop">Bröllop</a></li><li id="pid_75"><a href="/Catering-bilder">Catering bilder</a></li><li id="pid_25"><a href="/Catering-Tips--rad">Tips & råd</a></li></ul></li><li id="pid_6"><a href="/Konferens"><span>Konferens</span></a><ul><li id="pid_26"><a href="/Konferens-Rummen">Rummen</a></li><li id="pid_27"><a href="/Konferens-Meny">Meny</a></li><li id="pid_61"><a href="/Boka-logi-">Boka logi </a></li></ul></li><li id="pid_7"><a href="/Naturum"><span>Naturum</span></a><ul><li id="pid_32"><a href="/Naturum-Drycker">Veckans bonus</a></li><li id="pid_28"><a href="/Naturum-Lunch">Lunch</a></li><li id="pid_29"><a href="/Naturum-Lordagar">Lördagar</a></li><li id="pid_76"><a href="/SondagsBrunch">SöndagsBrunch</a></li><li id="pid_62"><a href="/Festkvall">JULBORD</a></li><li id="pid_68"><a href="/Boka---bord">Boka - bord</a></li><li id="pid_31"><a href="/Naturum-Fika-och-smorgasar">Cafémeny</a></li><li id="pid_79"><a href="/Kvallsbokningar">Kvällsbokningar</a></li><li id="pid_49"><a href="/Naturliga-moten">Naturliga möten</a></li><li id="pid_41"><a href="/Om-Oss">Om Oss</a></li><li id="pid_56"><a href="/Fina-bilder-pa-naturum">Bildarkiv</a></li></ul></li><li id="pid_14"><a href="/Wanas"><span>Wanås</span></a><ul><li id="pid_33"><a href="/Wanas-Meny">Våra råvaror</a></li><li id="pid_73"><a href="/SMRREBRD">SMØRREBRØD</a></li></ul></li><li id="pid_8"><a href="/Foretaget"><span>Företaget</span></a><ul><li id="pid_57"><a href="/foretaget---bildarkiv">företaget - bildarkiv</a></li></ul></li>      </ul>
       <div class="clear"></div>
     </div><!-- .wrap -->
@@ -102,7 +102,13 @@
     <div class="wrap">
 
       <div class="row first">
-        <div class="content_box one"><p><img src="http://danielnikolovski.com/fredholms/welcome-header.png" alt="" width="100%" height="398" /></p></div>        <div class="content_box two"><p><img src="http://www.fredholms.com/uploads/pumpor.jpg" alt="" width="724" height="483" /></p></div>      </div>
+        <div class="content_box one">
+          <p>
+          <img class="visible-lg" src="http://danielnikolovski.com/welcome-header-original.png" alt="" width="100%" height="398" />
+          <img class="hidden-lg" src="http://danielnikolovski.com/fredholms/welcome-header.png" alt="" width="100%" height="398" />
+          </p>
+        </div>
+        <div class="content_box two"><p><img src="http://www.fredholms.com/uploads/pumpor.jpg" alt="" width="724" height="483" /></p></div>      </div>
       <div class="row">
         <div class="image_box one">
           <a href="/Krog">
