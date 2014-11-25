@@ -1,0 +1,773 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Main styles
+   ========================================================================== */
+html {
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+}
+html, body {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+* {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.field {
+	position:relative;
+}
+.grass {
+    background-image:url('../img/stadium.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align:center;
+	width: 686px;
+	height: 385px;
+	position: absolute;
+    position:relative;
+    float:left;
+}
+.attack {
+	position:absolute;
+    height: 50px;
+	top:50px;
+	left:0;
+	right:0;
+}
+.st {
+	left:0;
+	right:0;
+}
+.lw {
+	left:140px;
+	top:60px;
+}
+.rw {
+	right:5px;
+}
+.midfield {
+	position:absolute;
+    height: 50px;
+	top:125px;
+	left:0;
+	right:0;
+}
+.lm {
+	left:5px;
+}
+.cm {
+	left:0;
+	right:0;
+}
+.rm {
+	right:5px;
+}
+.defense {
+	position:absolute;
+    height: 50px;
+	top:200px;
+	left:0;
+	right:0;
+}
+.keeper {
+	position:absolute;
+	left:0;
+	right:0;
+    height: 50px;
+	top:270px;
+}
+.player {
+    position:absolute;
+    background-image:url('../img/player.png');
+    height:45px;
+    width:63px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    padding:15px;
+    z-index:5;
+}
+.gk {
+    background-image:url('../img/goalkeeper.png');
+    height:45px;
+    width:65px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    position:absolute;
+    left:0;
+    right:0;
+}
+.playernumber {
+	font-weight: bold;
+	position: absolute;
+	top: 3px;
+	left: 43px;
+	font-size: 17px;
+}
+.dble {
+	top: 3px;
+	left:38px;
+}
+.substitutes {
+    text-align:center;
+    color:#fff;
+	background: rgb(0,3,12); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(0,3,12,1) 29%, rgba(130,130,130,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(29%,rgba(0,3,12,1)), color-stop(100%,rgba(130,130,130,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,3,12,1) 29%,rgba(130,130,130,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,3,12,1) 29%,rgba(130,130,130,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,3,12,1) 29%,rgba(130,130,130,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,3,12,1) 29%,rgba(130,130,130,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00030c', endColorstr='#828282',GradientType=0 ); /* IE6-9 */
+    left:0px;
+    right:0px;
+    height:130px;
+    position:absolute;
+    top:385px;
+    -webkit-transition: bottom ease-out .5s;
+    -moz-transition: bottom ease-out .5s;
+    transition: bottom ease-out .5s;
+    z-index:6;
+    padding-top:3px;
+}
+.subs {
+	z-index:7;
+}
+.sliderarrow {
+	padding:10px;
+	color:#fff;
+	background:#00030c;
+	width:70px;
+	height:5px;
+	position:absolute;
+	left:298px;
+	top:-25px;
+	cursor:pointer;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+.bordersmall {
+	border-top:2px solid #fff;
+	opacity:0.5;
+	width:50%;
+	margin: 0 auto;
+}
+.borderbig {
+	border-top:1px solid #fff;
+	margin-top:5px;
+	opacity:0.5;
+}
+.hovering {
+    outline: solid rgba(255,255,255,.7) 1px;
+}
+.playername {
+	position:absolute;
+	color:#fff;
+	left:0;
+	right:0;
+	bottom:10px;
+	font-size:14px;
+	font-weight:bold;
+}
+.pos {
+	position:absolute;
+	color:#fff;
+	left: 2px;
+	top: 25px;
+	font-size:12px;
+	font-weight:bold;
+}
+.staminabar {
+	position:absolute;
+	height:7px;
+	left:10px;
+	right:10px;
+	background:rgba(0,0,0,0.8);
+	bottom: 28px;
+}
+.stamina{
+	position:absolute;
+	height:5px;
+	top:1px;
+	left:1px;
+}
+.trekvarts {
+	right:30%;
+	background: #d6e023; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d6e023 9%, #d6e023 49%, #8e7e00 84%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,#d6e023), color-stop(49%,#d6e023), color-stop(84%,#8e7e00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d6e023 9%,#d6e023 49%,#8e7e00 84%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d6e023 9%,#d6e023 49%,#8e7e00 84%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d6e023 9%,#d6e023 49%,#8e7e00 84%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d6e023 9%,#d6e023 49%,#8e7e00 84%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6e023', endColorstr='#8e7e00',GradientType=0 ); /* IE6-9 */
+}
+.sixty {
+	right:45%;
+	background: #d6e023; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d6e023 9%, #d6e023 49%, #8e7e00 84%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,#d6e023), color-stop(49%,#d6e023), color-stop(84%,#8e7e00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d6e023 9%,#d6e023 49%,#8e7e00 84%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d6e023 9%,#d6e023 49%,#8e7e00 84%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d6e023 9%,#d6e023 49%,#8e7e00 84%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d6e023 9%,#d6e023 49%,#8e7e00 84%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6e023', endColorstr='#8e7e00',GradientType=0 ); /* IE6-9 */
+}
+.full {
+	right:1px;
+	background: #40c11d; /* Old browsers */
+	background: -moz-linear-gradient(top,  #40c11d 9%, #198a00 53%, #105800 84%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,#40c11d), color-stop(53%,#198a00), color-stop(84%,#105800)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #40c11d 9%,#198a00 53%,#105800 84%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #40c11d 9%,#198a00 53%,#105800 84%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #40c11d 9%,#198a00 53%,#105800 84%); /* IE10+ */
+	background: linear-gradient(to bottom,  #40c11d 9%,#198a00 53%,#105800 84%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40c11d', endColorstr='#105800',GradientType=0 ); /* IE6-9 */
+}
+.low {
+	right:60%;
+	background: #e20202; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e20202 9%, #e20202 49%, #680000 84%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,#e20202), color-stop(49%,#e20202), color-stop(84%,#680000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e20202 9%,#e20202 49%,#680000 84%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e20202 9%,#e20202 49%,#680000 84%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e20202 9%,#e20202 49%,#680000 84%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e20202 9%,#e20202 49%,#680000 84%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e20202', endColorstr='#680000',GradientType=0 ); /* IE6-9 */
+}
+.lower {
+	right:70%;
+	background: #e20202; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e20202 9%, #e20202 49%, #680000 84%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,#e20202), color-stop(49%,#e20202), color-stop(84%,#680000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e20202 9%,#e20202 49%,#680000 84%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e20202 9%,#e20202 49%,#680000 84%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e20202 9%,#e20202 49%,#680000 84%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e20202 9%,#e20202 49%,#680000 84%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e20202', endColorstr='#680000',GradientType=0 ); /* IE6-9 */
+}
+
+.formations {
+	width: 115px;
+	background:rgba(0,0,0,.7);
+	height: 135px;
+	position: absolute;
+	color: #fff;
+	border:1px solid rgba(255,255,255,.1);
+	right: 10px;
+	top: 10px;
+	text-align: center;
+	font-weight:300;
+	padding-top:5px;
+}
+.formations .prev,
+.formations .next {
+	width:13px;
+	position:absolute;
+	cursor:pointer;
+	opacity:0.7;
+	z-index:5;
+	top:57px;
+}
+.formations .prev:hover,
+.formations .next:hover {
+	opacity:1;
+}
+.formations .prev {
+	left:7px;
+}
+.formations .next {
+	right:7px;
+}
+.formations img {
+	width:50px;
+	cursor:pointer;
+	margin-top:10px;
+}
+.active {
+    -webkit-filter: brightness(350%);
+}
+.iphone {
+	width:1000px;
+	height:590px;
+	position: absolute;
+   	top: 50%;
+   	left: 50%;
+   	margin-top: -280px;
+   	margin-left: -500px;
+}
+.tint {
+	width:1000px;
+	height:590px;
+	position: absolute;
+   	top: 50%;
+   	left: 50%;
+   	margin-top: -280px;
+   	margin-left: -500px;
+}
+.viewport {
+	width: 686px;
+	height: 385px;
+	position: absolute;
+	top: 80px;
+	left: 160px;
+	overflow:hidden;
+}
+.intro {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:10;
+	margin:0 auto;
+}
+.intro form {
+	width:200px;
+	z-index:100;
+	position:absolute;
+	height:300px;
+   	top: 50%;
+   	left: 50%;
+   	margin-top: -130px;
+   	margin-left: -100px;
+}
+.intro  p {
+	font-size:12px;
+}
+.intro a {
+	text-decoration:none;
+}
+.intro a:hover {
+	text-decoration:underline;
+}
+.intro form input {
+	background: #f5f5f5; border: 2px solid #ddd; color: #777; max-width: 100%; outline: none; padding: 7px 8px;margin-top:12px;
+	font-weight:normal;
+	width:180px;
+}
+.intro button {
+	width:100%;
+	margin-top:12px;
+	padding: 10px 8px;
+	color:#fff;
+	background-color:#cb242c;
+	border:none;
+}
+.intro button:hover {
+	background-color:#c9474d;
+}
+.intro button:focus, .intro button:active {
+	border:none;
+}
+.intro form input:focus {
+	border-color: #ccc;
+}
+.introbg {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:5;
+	background-color:#3ca935;
+}
+.dragging {
+    z-index: 999;
+}
+.waitmatch {
+	position:absolute;
+	top:10px;
+	left:10px;
+	right:10px;
+	bottom:10px;
+	z-index:11;
+	margin:0 auto;
+	background:rgba(0,0,0,.95);
+	color:#fff;
+	text-align:center;
+	font-size:24px;
+	padding-top:30px;
+}
+.waitmatchbg {
+	background: url('../img/stadium.jpg');
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:10;
+	background-size:cover;
+}
+.waitmatch img {
+	display:block;
+	margin:0 auto;
+	margin-top:25px;
+}
+.changes {
+	width:150px;
+	height:95px;
+	position:absolute;
+	top:50px;
+	left:10px;
+	text-align:left;
+	color:#fff;
+	display:none;
+}
+.counter {
+	text-align:center;
+	font-size:18px;
+	background-image:url('../img/stopclock.png');
+	background-size:25px;
+	background-repeat:no-repeat;
+	width:40px;
+	height:50px;
+	font-weight:bold;
+	position:absolute;
+	top:8px;
+	right:-8px;
+}
+.counter span {
+position: absolute;
+top: 3px;
+left: 8px;
+font-size:14px;
+}
+.playerin,
+.playerout {
+	margin:0 5px;
+}
+.playerinout {
+	background:rgba(0,0,0,.7);
+	padding:10px 0;
+	border:1px solid rgba(255,255,255,.1);
+	position:relative;
+}
+.playerin:before {
+	content:'\25b2';
+	width: 0;
+	height: 0;
+	color:green;
+	margin-right:3px;
+}
+.playerout:before {
+	content:'\25bc';
+	width: 0;
+	height: 0;
+	color:red;
+	margin-right:3px;
+}
+.button {
+	width:100%;
+	padding: 10px 8px;
+	color:#fff;
+	background-color:#cb242c;
+	border:none;
+	cursor:pointer;
+	z-index:20;
+	position:relative;
+}
+.connection {
+	width: 100px;
+	margin-top:10px;
+	position:absolute;
+	left:115px;
+	border:1px solid rgba(255,255,255,.1)
+}
+.logout {
+	width: 80px;
+	height:27px;
+	background-color:#222222;
+	top:10px;
+	position:absolute;
+	left:10px;
+	border-radius:22px;
+	cursor:pointer;
+-webkit-box-shadow: inset -3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+-moz-box-shadow:    inset -3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+box-shadow:         inset -3px 3px 5px 0px rgba(0, 0, 0, 0.75);}
+.sliderbtn {
+	background:#888;
+	height:28px;
+	width:28px;
+	top:-2px;
+	border-radius:100px;
+	position:absolute;
+	border:2px solid #222;
+	cursor:pointer;
+	z-index: 2;
+}
+.logout i {
+	color:#fff;
+	position:absolute;
+	right:13px;
+	top:6px;
+}
+.logoutpopup {
+	color:#fff;
+	position:absolute;
+   top: 50%;
+   left: 50%;
+   width: 300px;
+   height: 150px;
+margin-top: 90px;
+margin-left: -150px;
+z-index:6;
+background:rgba(0,0,0,.95);
+border:1px solid rgba(255,255,255,.1);
+text-align:center;
+padding-top:35px;
+display:none;
+}
+.logoutpopup .btn {
+	padding:7px 20px;
+	border:none;
+}
+.logoutpopup .abort {
+	background:#cb242c;
+	color:#fff;
+	margin-left:15px;
+}
+.logoutpopup button {
+display:inline-block;
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

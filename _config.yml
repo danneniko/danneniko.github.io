@@ -1,14 +1,11 @@
 # Site settings
-title: Daniel Nikolovski | Web / UX / SEO
+title: Daniel Nikolovski | Webb / UX / SEO
 email: hello@danielnikolovski.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am a Web designer from Sweden, with a burning passion for UX & SEO.
+  Jag är en webbdesigner från Eslöv, med en brinnande passion för UX & SEO.
 url: "http://danielnikolovski.com"
 twitter_username: danneniko
 github_username:  danneniko
 highlighter: rouge
-gems:
-  - jekyll-sitemap
-
 # Build settings
 markdown: kramdown
