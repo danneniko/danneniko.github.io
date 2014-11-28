@@ -17,6 +17,10 @@ html {
     clear: both;
 }
 
+@font-face {
+	font-family:'ThinExtended';src:url("ThinExtended.eot");
+}
+
 #Wrapper {
 max-width: 100%;
 width:100%;
