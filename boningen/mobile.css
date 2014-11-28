@@ -17,10 +17,13 @@ html {
     clear: both;
 }
 
-@font-face {
+@font-face{
 	font-family:'ThinExtended';
-	src:url("ThinExtended.eot");
-	src:url("ThinExtended.ttf") format=("truetype");
+	src:url("http://danielnikolovski.com/boningen/ThinExtended.eot");
+	src:url("http://danielnikolovski.com/boningen/ThinExtended.eot?#iefix") format('embedded-opentype'),
+	url("http://danielnikolovski.com/boningen/ThinExtended.ttf") format('truetype');
+	font-weight:normal;
+	font-style:normal;
 }
 
 #Wrapper {
