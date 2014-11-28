@@ -18,7 +18,9 @@ html {
 }
 
 @font-face {
-	font-family:'ThinExtended';src:url("ThinExtended.eot");
+	font-family:'ThinExtended';
+	src:url("ThinExtended.eot");
+	src:url("ThinExtended.ttf") format=("truetype");
 }
 
 #Wrapper {
