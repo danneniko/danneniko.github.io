@@ -839,37 +839,31 @@ div.box {
     width: 50% !important;
 }
 .box.fifa {
-    background: #d6e8da;
+    background: #AED581;
 }
 .box.lemonbite {
-    background: #72cbcf;
-}
-.box.slugfeast {
-    background: #e0e65e;
+    background: #00ACC1;
 }
 .box.bagasell {
-    background: #edcd44;
+    background: #FFCA28;
 }
 .box.alldindauti {
-    background: #e96946;
-}
-.box.priside {
-    background: #a0d989;
+    background: #EF5350;
 }
 .box.landgren {
-    background: #b6cdd0;
-}
-.box.tjanster {
-    background: #bfc3ff;
+    background: #B2DFDB;
 }
 .box.freespinbonanza {
-    background: #f0e9c0;
+    background: #FFF9C4;
 }
 .box.plockepinn {
-    background: #968e7b;
+    background: #B0BEC5;
+}
+.box.siriusrestaurangen {
+    background: #F57F17;
 }
 .box.glorias {
-    background: #2d2d2d;
+    background: #212121;
 }
 /* ===============================
    Work
