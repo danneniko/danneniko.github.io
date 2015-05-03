@@ -976,6 +976,32 @@ div.box {
     }
 }
 @media (min-width: 1025px) {
+  .hcontainer {
+      display: -webkit-flex;
+      display: flex;
+  }
+  .nav {
+      -webkit-flex: 1;
+      flex: 1;
+      display:none;
+      text-align:right;
+  }
+  .nav a {
+      display:inline-block;
+      margin:0 25px;
+  }
+  .nav a:last-child {
+      margin-right:0;
+  }
+  .nav h5 {
+        font-family: "futura-pt", sans-serif;
+        margin-top: 2px;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform:uppercase;
+        letter-spacing:1px;
+        margin-bottom: 10px;
+  }
 	.site-footer .social {
 		float:right;
 	}
@@ -983,11 +1009,15 @@ div.box {
         font-size: 60px;
         margin: 0.3em 0;
         margin-bottom: 0;
-    	margin-left: -5px;
+      	margin-left: -5px;
+        display:inline-block;
     }
     header h4 {
         margin-bottom: 0;
         font-size: 22px;
+        -webkit-flex: 2;
+        flex: 2;
+        display:block;
     }
     .container {
         max-width: 1200px;
