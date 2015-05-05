@@ -708,6 +708,9 @@ html, body {
     margin: 0 auto !important;
     position: relative;
 }
+.nav {
+	display:none;
+}
 header h1 {
     font-family: "futura-pt", sans-serif;
     font-weight: 800;
