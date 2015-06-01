@@ -1521,13 +1521,13 @@ Nav animations
   bottom: 8%;
 }
 .nav-open {
-    -webkit-animation: slide 0.5s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
-    -moz-animation: slide 0.5s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);        
-    animation: slide 0.5s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-animation: slide 0.2s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -moz-animation: slide 0.2s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);        
+    animation: slide 0.2s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
     max-height: 500px;
-    -webkit-transition: max-height 0.8s cubic-bezier(0.250, 0.100, 0.250, 1.000);
-    -moz-transition: max-height 0.8s cubic-bezier(0.250, 0.100, 0.250, 1.000);
-    transition: max-height 0.8s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition: max-height 0.2s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -moz-transition: max-height 0.2s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    transition: max-height 0.2s cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
 @-webkit-keyframes slide {
     100% {
@@ -1601,8 +1601,7 @@ nav a:nth-child(3) {
     animation-delay: .39s    
 }
 
-
-@media (min-width: 767px) {
+@media (min-width: 767px) { 
     /* ===============================
     Posts
     =============================== */
@@ -1672,25 +1671,7 @@ nav a:nth-child(3) {
         padding:5px;
     }
     .nav-open {
-        -webkit-animation: slide 0.8s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
-        -moz-animation: slide 0.8s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);        
-        animation: slide 0.8s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
-        margin-bottom:0;
-    }
-    @-webkit-keyframes slide {
-        100% {
-            left: 2% !important;
-        }
-    }
-    @-moz-keyframes slide {
-        100% {
-            left: 2% !important;
-        }
-    }
-    @keyframes slide {
-        100% {
-            left: 2% !important;
-        }
+        left:2%;
     }
     .open-items {
         -webkit-animation: FadeIn .5s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
@@ -1814,22 +1795,9 @@ nav a:nth-child(3) {
     }
 }
 @media (min-width: 1024px) {
-    @-webkit-keyframes slide {
-        100% {
-            left: 12% !important;
-        }
+    .nav-open {
+        left:12%;
     }
-    @-moz-keyframes slide {
-        100% {
-            left: 12% !important;
-        }
-    }    
-    @keyframes slide {
-        100% {
-            left: 12% !important;
-        }
-    }
-
     .pagenavWrapper {
         width: 100%;
         margin-top: 60px;
@@ -1981,25 +1949,20 @@ nav a:nth-child(3) {
     .box figure img.tjansterimg {
         width: 200px !important;
     }
-    .box figure img.landgrenimg {
+    .box figure img.landgrenimg {z
         width: 49%;
     }
 }
 @media (min-width: 1200px) {
-    @-webkit-keyframes slide {
-        100% {
-            left: 32% !important;
-        }
+    .nav-open {
+        left:32%;
     }
-    @-webkit-keyframes slide {
-        100% {
-            left: 32% !important;
-        }
-    @keyframes slide {
-        100% {
-            left: 32% !important;
-        }
-    }    
+    .container {
+        max-width: 70rem;
+    }
+    .box {
+        height: 20vw;
+    }
     .site-footer .social {
         float: right;
     }

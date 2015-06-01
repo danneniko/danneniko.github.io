@@ -12,7 +12,7 @@ $(function() {
 
 
 	$( ".nav-switch" ).click(function() {
-	    $("nav").toggleClass("nav-open");
-	    $("nav a").toggleClass("open-items");
+	    $(".nav").toggleClass("nav-open");
+	    $(".nav a").toggleClass("open-items");
 	});
 });
