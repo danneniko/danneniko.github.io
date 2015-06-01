@@ -1,39 +1,49 @@
 ---
 layout: default
 title: Daniel Nikolovski | Webb / UX / SEO
+active: portfolio
 ---
 
 <div class="colWrapper">
-  <div class="box siriusrestaurangen pfcard">
+  <a class="box siriusrestaurangen pfcard" href="siriusrestaurangen">
     <figure>
-    <span class="kmrsnart">Lanseras snart!</span>
     <img class="portfolioItem" src="img/masonryitems/siriusrestaurangen.svg" alt="Siriusrestaurangen">
       <figcaption>
         <h3>Siriusrestaurangen</h3>
-        <span>WP design &amp; utveckling</span>
+        <span>UX / WP design &amp; utveckling</span>
       </figcaption>
     </figure>
-  </div>
-  <div class="box plockepinn pfcard">
+  </a>
+  <a class="box plockepinn pfcard" href="plockepinn">
     <figure>
-    <span class="kmrsnart">Lanseras snart!</span>
     <img class="portfolioItem" src="img/masonryitems/plockepinn.png" alt="Plockepinn">
       <figcaption>
         <h3>Plockepinn</h3>
-        <span>Responsiv design</span>
+        <span>Responsiv design / WP utveckling</span>
       </figcaption>
     </figure>
-  </div>
-  <div class="box glorias pfcard">
+  </a>
+  <div class="box postcard pfcard">
+    {% for post in site.posts limit:1 %}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h6 class="hidden-lg">{{ post.excerpt | truncatewords:16 }}</h6>
+      <h6 class="visible-lg">{{ post.excerpt | truncatewords:35 }}</h6>      
+      <div class="presentation">
+        <p class="default">
+          <a href="{{ post.url }}">Läs mer</a>
+        </p>
+      </div>
+    {% endfor %}
+  </div>  
+  <a class="box glorias pfcard" href="glorias">
     <figure>
-    <span class="kmrsnart">Lanseras snart!</span>
     <img class="portfolioItem" src="img/masonryitems/glorias.png" alt="Glorias">
       <figcaption>
         <h3>Glorias</h3>
-        <span>Mobilanpassning</span>
+        <span>Responsiv design</span>
       </figcaption>
     </figure>
-  </div>
+  </a>
   <a class="box landgren pfcard" href="peterlandgren">
       <figure>
       <img class="portfolioItem" src="img/masonryitems/peterlandgren.svg" alt="Peter Landgren">
@@ -43,16 +53,7 @@ title: Daniel Nikolovski | Webb / UX / SEO
         </figcaption>
       </figure>
   </a>
-  <a class="box freespinbonanza pfcard" href="freespinbonanza">
-    <figure>
-    <img class="portfolioItem freespinbonanzaimg" src="img/masonryitems/freespinbonanza.svg" alt="Freespin Bonanza">
-      <figcaption>
-        <h3>Freespin Bonanza</h3>
-        <span>Design &amp; WP Utveckling</span>
-      </figcaption>
-    </figure>
-  </a>
-    <a class="box lemonbite pfcard" href="lemonbite">
+  <a class="box lemonbite pfcard" href="lemonbite">
     <figure>
     <img class="portfolioItem" src="img/masonryitems/lemonbite.png" alt="Lemonbite">
       <figcaption>
@@ -74,19 +75,20 @@ title: Daniel Nikolovski | Webb / UX / SEO
     <figure>
     <img class="portfolioItem" src="img/masonryitems/fifa.png" alt="Fifa companion app">
       <figcaption>
-        <h3>Fifa Companion App</h3>
+        <h3>FIFA Companion App</h3>
         <span>Design &amp; Utveckling</span>
       </figcaption>
     </figure>
   </a>
-  <a class="box alldindauti pfcard" href="alldindauti">
+  <div class="box alldindauti pfcard">
     <figure>
-    <img class="portfolioItem" src="img/masonryitems/alldindauti.png" alt="Alldin Dauti VFX">
+    <span class="kmrsnart">Lanseras snart!</span>      
+    <img class="portfolioItem freespinbonanzaimg" src="img/masonryitems/freespinbonanza.svg" alt="Freespin Bonanza">
       <figcaption>
-        <h3>Alldin Dauti</h3>
-        <span>Design &amp; Utveckling</span>
+        <h3>Freespin Bonanza</h3>
+        <span>Design &amp; WP Utveckling</span>
       </figcaption>
     </figure>
-  </a>
+  </div>
 
 </div>

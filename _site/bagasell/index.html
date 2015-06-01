@@ -15,10 +15,12 @@
 	<title>Daniel Nikolovski | Bagasell</title>
 	<link rel="stylesheet" href="/css/main.css">
 	<link rel="stylesheet" href="/css/normalize.css">
-	<link rel="canonical" href="http://danielnikolovski.com/bagasell/">
+	<link rel="canonical" href="http://localhost:4000/bagasell/">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript" src="//use.typekit.net/uca4rfy.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>	
+	<script type="text/javascript" src="/js/main.js"></script>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -33,83 +35,98 @@
 
   <body class="container">
 
-    <header>
-  <a href="http://danielnikolovski.com"><h1>Daniel <br>Nikolovski</h1></a>
-  <div class="hcontainer">
-    <h4>Webb / UX / SEO</h4>
-    <nav class="nav">
-      <a href="/blogg"><h5>Blogg</h5></a>
-      <a href="/om"><h5>Om mig</h5></a>
-      <a href="/kontakt"><h5>Kontakt</h5></a>
-    </nav>
+    <header class="cf">
+  <div class="upperheader cf">
+  <a href="http://localhost:4000" class="logo"><h1>Daniel <br>Nikolovski</h1></a>
+  <div class="nav-switch-wrapper pull-right visible-xs">
+    <button class="nav-switch nav-switch-rotate">
+      <span>toggle menu</span>
+    </button>
   </div>
+
+</div>
+    <h4 class="visible-xs">Webb / UX / SEO</h4>
+
+  <div class="hcontainer">
+    <div class="navwrapper">
+      <nav class="nav">
+        
+          <a href="http://localhost:4000/" class="current"><h5>Portfolio</h5></a>
+        
+
+        
+          <a href="http://localhost:4000/om"><h5>Om mig</h5></a>
+        
+
+        
+        <a href="http://localhost:4000/artiklar"><h5>Artiklar</h5></a>    
+          
+      </nav>
+      <div class="nav-switch-wrapper pull-right hidden-xs">
+        <button class="nav-switch nav-switch-rotate">
+          <span>toggle menu</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <h4 class="hidden-xs">Webb / UX / SEO</h4>
+
 </header>
 
 
     <main class="mainContent subpage">
-        <div class="row">
-  <div class="col-lg-4">
-    <p>One2tel i Malmö behövde ett lättanvänt men kraftfullt system för orderhantering.</p>
-    <p>Ihop med en före detta Microsoft-anställd, en utvecklare vid namnet <a href="https://www.linkedin.com/pub/doug-gale/a2/275/251" target="_blank">Doug Gale</a>, skapade jag ett kraftfullt orderhanteringssystem för företag i telekombranschen.</p>
-    <p>Jag var ansvarig för hela projektet, samt UI designen.</p>
-  </div>
-  <div class="col-lg-8">
-    <img src="/img/work/bagasell/bagasell-1.png" alt="Bagasell dashboard" class="full-width-img">
-  </div>
-</div>
-<div class="row">
-  <div class="col-lg-8">
-    <img src="/img/work/bagasell/bagasell-2.png" alt="Bagasell new order" class="full-width-img">
-  </div>
-  <div class="col-lg-4">
-    <p>Vi stötte på flertalet problem på vägen under detta projekt, och jag lärde mig verkligen vikten av att göra ett ordentligt förarbete innan man påbörjar ett projekt av denna omfattningen.</p>
-    <p>Att alltid planera för potentiella problem i förväg, men ändå bibehålla ett öppet sinne och vara flexibel för förbättringar under projektets gång. Det var receptet som gjorde att vi kunde realisera detta projektet, trots att jag arbetade ihop med en utvecklare som satt på andra sidan av Atlanten.</p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-lg-4">
-    <p>Vi anpassade Bagasell exklusivt för telemarketingföretag. Det vill säga företag vars anställda har i uppgift att ringa kalla samtal till sina kunder, för att förlänga eller nyteckna abonnemang.</p>
-    <p>Eftersom det är en marknad där säljarna oftast gör 1-20 säljavslut dagligen, var det viktigt att vi anpassade systemet så att de snabbt och enkelt kunde placera ordrar, utan att behöva tappa fokus från det som är viktigast för dom.</p>
-    <p>Vi skapade ett system där de ansvariga enkelt kunde förinställa allt i förväg, för att underlätta så mycket som möjligt för säljarna.</p>
-  </div>
-  <div class="col-lg-8">
-    <img src="/img/work/bagasell/bagasell-3.png" alt="Bagasell pick units" class="full-width-img">
-  </div>
-</div>
-<div class="row">
-  <div class="col-lg-8">
-    <img src="/img/work/bagasell/bagasell-4.png" alt="Bagasell finalize" class="full-width-img">
-  </div>
-  <div class="col-lg-4">
-    <p>Ett sätt att placera ordrar för ett framtida datum var ett måste.</p>
-    <p>Detta är ett av de många problem vi fick lösa på vägen. Vissa kunder hade abonnemang som löpte ut en månad efter att försäljningen skedde, så det var viktigt att säljarna kunde registrera dessa ordrar trots detta. Denna lösning löste också problemet att säljarna inte kunde "stjäla" varandras ordrar av misstag.</p>
-    <p>Vi byggde också ett enkelt system för kommentarer, där säljarna och kundtjänsten kan kommunicera på ett smidigt sätt.</p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-lg-4">
-    <p>Orderhistoriken tillåter säljarna och kundtjänsten att snabbt få en överblick över vad som är nytt, vad som väntar, vad som är registrerat etc.</p>
-    <p>Denna sektion tillåter dessutom användarna att snabbredigera sina ordrar, lägga till fler kommentarer, få en enkel inblick av vilken kund de har sålt till, och mycket mer.</p>
-    <p>Vi skapade också AJAX-drivna datumintervall, söksystem, filter m.m.</p>
-  </div>
-  <div class="col-lg-8">
-    <img src="/img/work/bagasell/bagasell-5.png" alt="Bagasell order overview" class="full-width-img">
-  </div>
-</div>
-<div class="row">
-  <div class="col-lg-8">
-    <img src="/img/work/bagasell/bagasell-6.png" alt="Bagasell notifications" class="full-width-img">
-  </div>
-  <div class="col-lg-4">
-      <p>Bagasell tillhandahåller ett fullmatat notifieringssystem där användarna på ett smidigt sätt kan hålla koll på alla viktiga händelser.</p>
-  </div>
-</div>
+        <div class="presentation cf">
+    <h1 class="postheader">Bagasell</h1>
 
+    <p class="cool">Design &amp; projektledning</p>
+
+    <p>One2tel i Malmö behövde ett lättanvänt men kraftfullt system för orderhantering.</p>
+
+    <p>Ihop med en före detta Microsoft-anställd, en utvecklare vid namnet <a href="https://www.linkedin.com/pub/doug-gale/a2/275/251" target="_blank">Doug Gale</a>, skapade jag ett kraftfullt orderhanteringssystem för företag i telekombranschen.</p>
+
+    <img src="/img/work/bagasell/bagasell-1.jpg" alt="Bagasell dashboard" class="floated-img-left">
+
+    <p>Jag var ansvarig för hela projektet, samt UI designen.</p>
+
+    <img src="/img/work/bagasell/bagasell-2.jpg" alt="Bagasell new order" class="floated-img-right">
+
+    <p>Vi stötte på flertalet problem på vägen under detta projekt, och jag lärde mig verkligen vikten av att göra ett ordentligt förarbete innan man påbörjar ett projekt av denna omfattningen.</p>
+
+    <p>Att alltid planera för potentiella problem i förväg, men ändå bibehålla ett öppet sinne och vara flexibel för förbättringar under projektets gång. <br>Det var receptet som gjorde att vi kunde realisera detta projektet, trots att jag arbetade ihop med en utvecklare som satt på andra sidan av Atlanten.</p>
+
+    <p>Vi anpassade Bagasell exklusivt för telemarketingföretag. Det vill säga företag vars anställda har i uppgift att ringa kalla samtal till sina kunder, för att förlänga eller nyteckna abonnemang.</p>
+
+    <p>Eftersom det är en marknad där säljarna oftast gör 1-20 säljavslut dagligen, var det viktigt att vi anpassade systemet så att de snabbt och enkelt kunde placera ordrar, utan att behöva tappa fokus från det som är viktigast för dom.</p>
+
+    <p>Vi skapade ett system där de ansvariga enkelt kunde förinställa allt i förväg, för att underlätta så mycket som möjligt för säljarna.</p>
+
+    <img src="/img/work/bagasell/bagasell-3.jpg" alt="Bagasell pick units" class="floated-img-left">
+
+
+    <p>Ett sätt att placera ordrar för ett framtida datum var ett måste.</p>
+
+    <p>Detta är ett av de många problem vi fick lösa på vägen. Vissa kunder hade abonnemang som löpte ut en månad efter att försäljningen skedde, så det var viktigt att säljarna kunde registrera dessa ordrar trots detta. Denna lösning löste också problemet att säljarna inte kunde "stjäla" varandras ordrar av misstag.</p>
+    
+    <img src="/img/work/bagasell/bagasell-4.jpg" alt="Bagasell finalize" class="floated-img-right">
+
+    <p>Vi byggde också ett enkelt system för kommentarer, där säljarna och kundtjänsten kan kommunicera på ett smidigt sätt.</p>
+
+    <p>Orderhistoriken tillåter säljarna och kundtjänsten att snabbt få en överblick över vad som är nytt, vad som väntar, vad som är registrerat etc.</p>
+
+    <p>Denna sektion tillåter dessutom användarna att snabbredigera sina ordrar, lägga till fler kommentarer, få en enkel inblick av vilken kund de har sålt till, och mycket mer.</p>
+
+    <img src="/img/work/bagasell/bagasell-6.jpg" alt="Bagasell notifications" class="floated-img-left">
+
+    <p>Vi skapade också AJAX-drivna datumintervall, söksystem, filter m.m.</p>
+
+
+    <p>Bagasell tillhandahåller ett fullmatat notifieringssystem där användarna på ett smidigt sätt kan hålla koll på alla viktiga händelser.</p>
+</div>
     </main>
 
     <div class="pagenavWrapper">
 	    <nav class="pagenav">
-	    	<a href="http://danielnikolovski.com">
+	    	<a href="http://localhost:4000">
 			    <span class="pagenavitem">
 			    	<i class="fa fa-th"></i>
 			    </span>
@@ -134,18 +151,18 @@
     <hr>
 <div class="site-footer">
 	<div class="row">
-		<div class="col-lg-4 contact">
+		<div class="col-lg-4 col-md-4 contact">
 			<h2>Daniel Nikolovski</h2>
 			<h6>Eslöv, Skåne</h6>
 			<p><a href="mailto:hello@danielnikolovski.com">hello@danielnikolovski.com</a></p>
 			<p><a href="tel:+46709289050">+46 737 63 57 63</a></p>
 			<p><a href="/files/cv.pdf" target="_blank">Ladda ner mitt CV</a></p>
 		</div>
-		<div class="col-lg-4">
+		<div class="col-lg-4 col-md-4">
 			<h2>Jag är för närvarande uppbokad till Juli 2015!</h2>
 			<h6>Vill du boka in ett projekt? eller om du bara har något annat kul i tankarna är du varmt välkommen att höra av dig!</h6>
 		</div>
-		<div class="col-lg-4">
+		<div class="col-lg-4 col-md-4">
 			<div class="social">
 				<a href="https://twitter.com/danneniko" target="_blank"><i class="fa fa-twitter"></i></a>
 				<a href="https://google.com/+DanielNikolovski1" target="_blank"><i class="fa fa-google-plus"></i></a>

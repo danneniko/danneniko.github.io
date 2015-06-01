@@ -4,11 +4,87 @@
     <title>Daniel Nikolovski | Webb / UX / SEO</title>
     <description>Jag är en webbdesigner från Eslöv, med en brinnande passion för UX &amp; SEO.
 </description>
-    <link>http://danielnikolovski.com/</link>
-    <atom:link href="http://danielnikolovski.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 May 2015 12:42:09 +0200</pubDate>
-    <lastBuildDate>Sun, 03 May 2015 12:42:09 +0200</lastBuildDate>
-    <generator>Jekyll v2.3.0</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 01 Jun 2015 11:59:38 +0200</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2015 11:59:38 +0200</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>En fullständig guide för sökoptimering</title>
+        <description>&lt;h1 id=&quot;en-fullstndig-guide-fr-skoptimering&quot;&gt;En fullständig guide för sökoptimering&lt;/h1&gt;
+
+&lt;p&gt;Vad tjänar det till att göra lysande hantverk på nätet om ingen kan hitta ditt arbete? I den här guiden kommer jag att förklara vad sökoptimering (SEO) är, hur det fungerar, och även dela med mig av några tips och tricks som SEO-experter brukar hålla för sig själva. Guiden är anpassad så att både nybörjare och avancerade SEOs ska kunna dra nytta av mina tankar och idéer.&lt;/p&gt;
+
+&lt;h2 id=&quot;grunderna-i-seo&quot;&gt;Grunderna i SEO&lt;/h2&gt;
+&lt;p&gt;Först och främst, vad innebär sökoptimering?&lt;/p&gt;
+
+&lt;p&gt;Om du tar en titt på populära sidor/appar idag, såsom &lt;a href=&quot;http://instagram.com&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt;, &lt;a href=&quot;http://www.bloomberg.com/&quot; target=&quot;_blank&quot;&gt;Bloomberg&lt;/a&gt;, &lt;a href=&quot;http://www.dailymotion.com/&quot; target=&quot;_blank&quot;&gt;dailymotion&lt;/a&gt; etc.&lt;br /&gt;
+Vad har de alla gemensamt? Bland annat har de alla en hel del andra webbplatser som länkar vidare till dem och det finns alltid surr kring dem på sociala medier.&lt;/p&gt;
+
+&lt;p&gt;Så formeln är enkel.. Om du vill att Google ska rangordna dig högre i din bransch / nisch i princip allt handlar om att få auktoritet till din webbplats.&lt;/p&gt;
+
+&lt;h3 id=&quot;men-hur-fr-vi-denna-auktoritet&quot;&gt;Men hur får vi denna auktoritet?&lt;/h3&gt;
+
+&lt;p&gt;När du börjar lära dig om SEO får du nästan samma svar överallt: 
+SKAPA BRA INNEHÅLL!&lt;br /&gt;
+Visst kan du bygga bra innehåll och hoppas att det kommer att skapa ett surr, men du kan också vidta konkreta och mätbara åtgärder för att påskynda processen.&lt;/p&gt;
+
+&lt;p&gt;Jag talar om att få kraftfulla webbplatser att länka till din webbplats. Ett sätt är att skapa intressant innehåll som ger mervärde till andra i din bransch. Om du lyckas skapa fantastiskt innehåll så finns där en viss chans att andra bloggar och kraftfulla webbplatser kommer vilja hänvisa till dig, och eventuellt även &lt;a href=&quot;https://moz.com/blog/the-10-golden-rules-to-attracting-authority-links&quot; target=&quot;_blank&quot;&gt;skicka en länk eller två till din webbplats&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;finns-det-inget-annat-stt&quot;&gt;Finns det inget annat sätt?&lt;/h3&gt;
+&lt;p&gt;Varning: Vidta extrem försiktighet! Om du inte vet vad du gör kan du i slutändan få din webbplats &lt;a href=&quot;http://www.wordtracker.com/academy/learn-seo/technical-guides/panda-slapped-quality-sites&quot; target=&quot;_blank&quot;&gt;bannlyst av Google&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Med det sagt, så finns det även &lt;a href=&quot;http://source-wave.com/how-to-build-a-blog-networ/&quot; target=&quot;_blank&quot;&gt;en lite mörkare väg att gå&lt;/a&gt;.
+Vilket innebär att man kan köpa kraftfulla domäner från auktioner, bygga relevant innehåll på dessa och skicka länkar från dessa domäner till din egna sida.&lt;/p&gt;
+
+&lt;p&gt;Dock är det mycket tidskrävande att identifiera och scanna domäner för hög auktoritet. De flesta domänerna som säljs på auktioner är dessutom redan &lt;em&gt;brända&lt;/em&gt;, dvs fyllda av spamlänkar, vilket gör mer skada än nytta. Men om man gräver djupt nog finns där onekligen guldkorn att hitta. Som tur är finns det en hel del bra verktyg där ute som gör denna delen av jobbet betydligt enklare.&lt;/p&gt;
+
+&lt;h3 id=&quot;ah-jag-tror-att-jag-frstr&quot;&gt;Ah, jag tror att jag förstår!&lt;/h3&gt;
+&lt;p&gt;Nu kanske du undrar, &lt;em&gt;är det tillräckligt att bara skicka starka länkar till din webbplats?&lt;/em&gt;
+Saken är den, att om du bara skickar starka länkar till din webbplats, så efterliknar du inte beteendet av alla andra framgångsrika webbplatser.
+Alla framgångsrika webbplatser har som sagt en sak gemensamt, det finns alltid ett surr om dem i sociala medier.&lt;/p&gt;
+
+&lt;p&gt;I Googles ögon är det totalt orimligt att du ska få en massa kraftfulla länkar till din webbplats när det inte finns någon aktivitet om din webbplats i sociala medier. Inga delningar, inga &lt;em&gt;likes&lt;/em&gt; etc. &lt;br /&gt;
+Så för att göra strategin trovärdig måste alla faktorer samspela med varandra.&lt;/p&gt;
+
+&lt;h3 id=&quot;var-hittar-man-sociala-signaler&quot;&gt;Var hittar man sociala signaler?&lt;/h3&gt;
+&lt;p&gt;Ett sätt är att bygga innehåll som skapar mervärde för besökarna. Det andra sättet är att köpa sociala signaler direkt på nätet. Detta beror dock helt och hållet på vilken strategi och vilka mål du har med din webbplats. Båda sätten fungerar om ditt enda mål är att skapa trovärdighet i Googles ögon. Och om du köper domäner, glöm inte att skapa sociala konton kopplade till dem (Facebook, Google och YouTube är tillräckligt) och skicka sociala signaler till dessa platser med.&lt;/p&gt;
+
+&lt;h2 id=&quot;optimera-din-hemsida-fr-seo&quot;&gt;Optimera din hemsida för SEO&lt;/h2&gt;
+&lt;p&gt;Jag kan inte tillräckligt betona hur viktigt det är att ha din sida föroptimerad för SEO.&lt;/p&gt;
+
+&lt;p&gt;Först av allt, se till att din webbplats kan läsas av &lt;a href=&quot;http://en.wikipedia.org/wiki/Web_crawler&quot; target=&quot;_blank&quot;&gt;sökrobotar&lt;/a&gt; så att ditt innehåll överhuvudtaget existerar på nätet.
+Se också till att du uppdaterar hemsidan regelbundet, du kan inte ha ett två år gammalt inlägg som ditt senaste inlägg och förvänta dig en bra ranking.&lt;/p&gt;
+
+&lt;p&gt;En annan sak att tänka på är att se till att alla dina inlägg länkar tillbaka till den sida du vill ranka, troligast din förstasida. Detta är viktigt av den orsaken att om någon länkar till ett av dina inlägg vill du se till att &lt;a href=&quot;http://blog.woorank.com/2013/05/the-flow-of-link-juice/&quot; target=&quot;_blank&quot;&gt;länkkraften&lt;/a&gt; inte går till spillo på ett enda inlägg, utan att den vidarebefordras.&lt;/p&gt;
+
+&lt;p&gt;Du bör dessutom till högsta möjliga grad hålla dig borta från extremt stora bilder och onödiga plugins kan bidra till långa laddningstider. &lt;br /&gt;
+Om webbplatsen tar för lång tid att ladda kan dina besökare få uppfattningen av att du mer eller mindre nonchalerar användarupplevelsen för dem. Du kan testa din webbplats prestanda med Googles &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;PageSpeed Insights&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;psykologin-bakom-skresultat&quot;&gt;Psykologin bakom sökresultat&lt;/h2&gt;
+&lt;p&gt;I slutändan handlar det hela om digital auktoritet. Stegvis innebär det:
+- Ha en &lt;a href=&quot;https://moz.com/learn/seo/on-page-factors&quot; target=&quot;_blank&quot;&gt;internt optimerad hemsida för SEO&lt;/a&gt;&lt;br /&gt;
+- Se till att du får tillräckligt med &lt;a href=&quot;http://searchengineland.com/guide/seo/social-media-ranking-search-results&quot; target=&quot;_blank&quot;&gt;sociala signaler&lt;/a&gt;&lt;br /&gt;
+- Gör noggrann analys av nyckelord med hjälp av Googles adwords key planner&lt;br /&gt;
+- Identifiering, scanning och köp av auktoritativa domäner (alt. köpa starka länkar från bra källor)
+- Tillhandahåll relaterat innehåll, skicka starka länkar till din sida&lt;br /&gt;
+- Bygg &lt;a href=&quot;http://www.forbes.com/sites/joshsteimle/2013/11/07/simple-seo-tip-for-small-businesses-local-citations/&quot; target=&quot;_blank&quot;&gt;referenser (citations)&lt;/a&gt; för att sprida ut nyckelorden  (OBS! använd dig endast av ditt varumärke eller din URL som nyckelord här)&lt;/p&gt;
+
+&lt;h2 id=&quot;hll-dig-uppdaterad&quot;&gt;Håll dig uppdaterad&lt;/h2&gt;
+
+&lt;p&gt;Prenumerera på bloggar som &lt;a href=&quot;http://googlewebmastercentral.blogspot.com/&quot; target=&quot;_blank&quot;&gt;Google webmaster blog&lt;/a&gt;, &lt;a href=&quot;https://moz.com/&quot; target=&quot;_blank&quot;&gt;Moz&lt;/a&gt;, &lt;a href=&quot;http://searchengineland.com/&quot; target=&quot;_blank&quot;&gt;Search engine land&lt;/a&gt; och följ mig gärna på &lt;a href=&quot;https://twitter.com/danneniko&quot; target=&quot;_blank&quot;&gt;twitter&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://www.facebook.com/danielnikolovskicom&quot; target=&quot;_blank&quot;&gt;facebook&lt;/a&gt; för de senaste tipsen och uppdateringarna kring SEO.&lt;/p&gt;
+
+&lt;p&gt;Lycka till!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 May 2015 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/artiklar/en-fullstandig-guide-for-sokoptimering</link>
+        <guid isPermaLink="true">http://localhost:4000/artiklar/en-fullstandig-guide-for-sokoptimering</guid>
+        
+        
+        <category>artiklar</category>
+        
+      </item>
     
   </channel>
 </rss>

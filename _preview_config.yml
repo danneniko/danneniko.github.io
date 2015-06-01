@@ -1,0 +1,15 @@
+# Site settings
+title: Daniel Nikolovski | Webb / UX / SEO
+email: hello@danielnikolovski.com
+description: > # this means to ignore newlines until "baseurl:"
+  Jag är en webbdesigner från Eslöv, med en brinnande passion för UX & SEO.
+url: "http://localhost:4000"
+twitter_username: danneniko
+github_username:  danneniko
+highlighter: pygments
+encoding: utf-8
+permalink: /:categories/:title
+post_dirs: false
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,43 @@
+---
+active: artiklar
+---
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="container">
+
+    {% include header.html %}
+
+    <main class="mainContent subpage cf">
+        <div class="post">
+          {{ content }}
+      </div>
+    </main>
+    <!-- 
+    <div class="pagenavWrapper">
+	    <nav class="pagenav">
+	    	<a href="{{ site.url }}">
+			    <span class="pagenavitem">
+			    	<i class="fa fa-th"></i>
+			    </span>
+		    </a>
+			<a href="{{page.previous.url}}" class="pagenavitem">
+        <span class="pagenavitem">
+          <i class="fa fa-angle-left"></i>
+        </span></a>
+      </a>
+			<a href="{{page.next.url}}" class="pagenavitem">         
+        <span class="pagenavitem">
+          <i class="fa fa-angle-right"></i>
+        </span></a>
+	    </nav>
+    </div>
+  -->
+    {% include footer.html %}
+
+  </body>
+
+</html>

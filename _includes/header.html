@@ -1,11 +1,43 @@
-<header>
-  <a href="{{ site.url }}"><h1>Daniel <br>Nikolovski</h1></a>
-  <div class="hcontainer">
-    <h4>Webb / UX / SEO</h4>
-    <nav class="nav">
-      <a href="/blogg"><h5>Blogg</h5></a>
-      <a href="/om"><h5>Om mig</h5></a>
-      <a href="/kontakt"><h5>Kontakt</h5></a>
-    </nav>
+<header class="cf">
+  <div class="upperheader cf">
+  <a href="{{ site.url }}" class="logo"><h1>Daniel <br>Nikolovski</h1></a>
+  <div class="nav-switch-wrapper pull-right visible-xs">
+    <button class="nav-switch nav-switch-rotate">
+      <span>toggle menu</span>
+    </button>
   </div>
+
+</div>
+    <h4 class="visible-xs">Webb / UX / SEO</h4>
+
+  <div class="hcontainer">
+    <div class="navwrapper">
+      <nav class="nav">
+        {% if page.active == "portfolio" %}
+          <a href="{{ site.url }}/" class="current"><h5>Portfolio</h5></a>
+        {% else %}
+        <a href="{{ site.url }}/"><h5>Portfolio</h5></a>
+        {% endif %}
+
+        {% if page.active == "om" %}
+          <a href="{{ site.url }}/om" class="current"><h5>Om mig</h5></a>
+        {% else %}
+          <a href="{{ site.url }}/om"><h5>Om mig</h5></a>
+        {% endif %}
+
+        {% if page.active == "artiklar" %}
+          <a href="{{ site.url }}/artiklar" class="current"><h5>Artiklar</h5></a>      
+        {% else %}
+        <a href="{{ site.url }}/artiklar"><h5>Artiklar</h5></a>    
+        {% endif %}  
+      </nav>
+      <div class="nav-switch-wrapper pull-right hidden-xs">
+        <button class="nav-switch nav-switch-rotate">
+          <span>toggle menu</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <h4 class="hidden-xs">Webb / UX / SEO</h4>
+
 </header>

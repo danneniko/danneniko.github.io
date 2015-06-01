@@ -1,150 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  
-  
   <url>
-    <loc>http://danielnikolovski.com/freespinbonanza/</loc>
-    <lastmod>2015-05-03T12:42:09+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://danielnikolovski.com/alldindauti/</loc>
-    <lastmod>2015-05-03T12:42:09+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://danielnikolovski.com/bagasell/</loc>
-    <lastmod>2015-05-03T12:42:09+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://danielnikolovski.com/fifa/</loc>
-    <lastmod>2015-05-03T12:42:09+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://danielnikolovski.com/</loc>
-    <lastmod>2015-05-03T12:42:09+02:00</lastmod>
+    <loc>/artiklar/en-fullstandig-guide-for-sokoptimering</loc>
+    
+    <lastmod>2015-05-27T00:00:00+02:00</lastmod>
+    
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
-  <url>
-    <loc>http://danielnikolovski.com/lemonbite/</loc>
-    <lastmod>2015-05-03T12:42:09+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://danielnikolovski.com/peterlandgren/</loc>
-    <lastmod>2015-05-03T12:42:09+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://danielnikolovski.com/priside/</loc>
-    <lastmod>2015-05-03T12:42:09+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://danielnikolovski.com/slugfeast/</loc>
-    <lastmod>2015-05-03T12:42:09+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://danielnikolovski.com/tjanster/</loc>
-    <lastmod>2015-05-03T12:42:09+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
   
   
   
-  <url>
-    <loc>http://danielnikolovski.com/amore/index.html</loc>
-    <lastmod>2014-12-27T18:31:29Z</lastmod>
-    <priority>0.6</priority>
-  </url>
   
-  <url>
-    <loc>http://danielnikolovski.com/fredholms/index.html</loc>
-    <lastmod>2014-12-27T18:31:29Z</lastmod>
-    <priority>0.6</priority>
-  </url>
   
-  <url>
-    <loc>http://danielnikolovski.com/plockepinn/index.html</loc>
-    <lastmod>2014-12-27T18:31:30Z</lastmod>
-    <priority>0.6</priority>
-  </url>
   
-  <url>
-    <loc>http://danielnikolovski.com/sirius/index.html</loc>
-    <lastmod>2014-12-27T18:31:30Z</lastmod>
-    <priority>0.6</priority>
-  </url>
   
-  <url>
-    <loc>http://danielnikolovski.com/sirius/original.html</loc>
-    <lastmod>2014-12-27T18:31:30Z</lastmod>
-    <priority>0.6</priority>
-  </url>
   
-  <url>
-    <loc>http://danielnikolovski.com/sites/fifa/404.html</loc>
-    <lastmod>2014-12-27T18:31:30Z</lastmod>
-    <priority>0.6</priority>
-  </url>
   
-  <url>
-    <loc>http://danielnikolovski.com/sites/fifa/index.html</loc>
-    <lastmod>2014-12-27T18:31:30Z</lastmod>
-    <priority>0.6</priority>
-  </url>
   
-  <url>
-    <loc>http://danielnikolovski.com/sites/lemonbite/404.html</loc>
-    <lastmod>2014-12-27T18:31:30Z</lastmod>
-    <priority>0.6</priority>
-  </url>
   
-  <url>
-    <loc>http://danielnikolovski.com/sites/lemonbite/google9db26f95e47a3a75.html</loc>
-    <lastmod>2014-12-27T18:31:31Z</lastmod>
-    <priority>0.6</priority>
-  </url>
   
-  <url>
-    <loc>http://danielnikolovski.com/sites/lemonbite/index.html</loc>
-    <lastmod>2014-12-27T18:31:31Z</lastmod>
-    <priority>0.6</priority>
-  </url>
   
-  <url>
-    <loc>http://danielnikolovski.com/sites/slugfeast/index.html</loc>
-    <lastmod>2014-12-27T18:31:34Z</lastmod>
-    <priority>0.6</priority>
-  </url>
   
-  <url>
-    <loc>http://danielnikolovski.com/spot/index.html</loc>
-    <lastmod>2014-12-27T18:31:35Z</lastmod>
-    <priority>0.6</priority>
-  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 </urlset>
