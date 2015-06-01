@@ -1139,7 +1139,7 @@ p > a:hover {
     -o-transform: rotate(45deg);
 }
 .box {
-    height: 80vw;
+    height: 92vw;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -1688,7 +1688,7 @@ nav a:nth-child(3) {
         width: 50%;
     }
     .thirtyimg {
-        width: 30%;
+        width: 21%;
     }
     .floated-img-left {
         float: left;
