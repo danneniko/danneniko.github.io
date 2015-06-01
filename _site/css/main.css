@@ -1514,7 +1514,6 @@ Nav animations
     -webkit-transition: max-height 0.15s cubic-bezier(0.250, 0.100, 0.250, 1.000);
     -moz-transition: max-height 0.15s cubic-bezier(0.250, 0.100, 0.250, 1.000);
     transition: max-height 0.15s cubic-bezier(0.250, 0.100, 0.250, 1.000);
-
 }
 .nav-switch-wrapper {
   position: absolute;
@@ -1578,52 +1577,62 @@ Nav animations
 }
 .open-items {
     -webkit-animation: FadeIn .4s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -moz-animation: FadeIn .4s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);    
     animation: FadeIn .4s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
     -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;    
     animation-fill-mode: both;
 }
 nav a:nth-child(1) {
     -webkit-animation-delay: .1s
+    -moz-animation-delay: .1s
+    animation-delay: .1s
+
 }
 nav a:nth-child(2) {
     -webkit-animation-delay: .28s
+    -moz-animation-delay: .28s
+    animation-delay: .28s
+
 }
 nav a:nth-child(3) {
     -webkit-animation-delay: .39s
+    -moz-animation-delay: .39s
+    animation-delay: .39s    
 }
 
 
 @media (min-width: 767px) {
-/* ===============================
-Posts
-=============================== */
-.post h1,
-h1.postheader {
-    font-size:2.7em;
-    font-weight:700;
-        font-family: "futura-pt", sans-serif;
+    /* ===============================
+    Posts
+    =============================== */
+    .post h1,
+    h1.postheader {
+        font-size:2.7em;
+        font-weight:700;
+            font-family: "futura-pt", sans-serif;
 
-}
-.post h2 {
-    font-size:2.2em;
-}
-.post h3 {
-      font-size: 1.5em;
-}
-ul.post-list h6 {
-    margin-top:0;
-}
-ul.post-list .post-thumbnail {
-    width: 8.3rem;
-}
-/* ===============================
-Nav animations
-=============================== */
-.nav-switch-wrapper { 
-    position: inherit;
-  right: inherit;
-  bottom: inherit;
-}
+    }
+    .post h2 {
+        font-size:2.2em;
+    }
+    .post h3 {
+          font-size: 1.5em;
+    }
+    ul.post-list h6 {
+        margin-top:0;
+    }
+    ul.post-list .post-thumbnail {
+        width: 8.3rem;
+    }
+    /* ===============================
+    Nav animations
+    =============================== */
+    .nav-switch-wrapper { 
+        position: inherit;
+      right: inherit;
+      bottom: inherit;
+    }
     .hcontainer {
       position: relative;
       overflow: hidden;
@@ -1654,7 +1663,9 @@ Nav animations
     }
     .nav {
         position: absolute;
-        transform:scale(1);
+        transform:scale(1) !important;
+        -webkit-transform:scale(1) !important;
+        -moz-transform:scale(1) !important;
         width: auto;
         left:  100%;
         z-index: 1;
@@ -1668,34 +1679,41 @@ Nav animations
     }
     @-webkit-keyframes slide {
         100% {
-            left: 2%;
+            left: 2% !important;
         }
     }
     @-moz-keyframes slide {
         100% {
-            left: 2%;
+            left: 2% !important;
         }
     }
-
     @keyframes slide {
         100% {
-            left: 2%;
+            left: 2% !important;
         }
     }
     .open-items {
         -webkit-animation: FadeIn .5s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
+        -moz-animation: FadeIn .5s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);        
         animation: FadeIn .5s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
         -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;        
         animation-fill-mode: both;
     }
     nav a:nth-child(1) {
         -webkit-animation-delay: .1s
+        -moz-animation-delay: .1s
+        animation-delay: .1s                
     }
     nav a:nth-child(2) {
         -webkit-animation-delay: .38s
+        -moz-animation-delay: .38s
+        animation-delay: .38s        
     }
     nav a:nth-child(3) {
         -webkit-animation-delay: .49s
+        -moz-animation-delay: .49s
+        animation-delay: .49s        
     }
 
 
@@ -1720,9 +1738,9 @@ Nav animations
         max-width: 55rem;
     }
     /* ===============================
-   Portfolio
-   =============================== */
-    
+    Portfolio
+    =============================== */
+
     .mainContent {
         width: 100%;
         margin: 2em auto !important;
@@ -1798,17 +1816,17 @@ Nav animations
 @media (min-width: 1024px) {
     @-webkit-keyframes slide {
         100% {
-            left: 12%;
+            left: 12% !important;
         }
     }
     @-moz-keyframes slide {
         100% {
-            left: 12%;
+            left: 12% !important;
         }
     }    
     @keyframes slide {
         100% {
-            left: 12%;
+            left: 12% !important;
         }
     }
 
@@ -1970,12 +1988,16 @@ Nav animations
 @media (min-width: 1200px) {
     @-webkit-keyframes slide {
         100% {
-            left: 32%;
+            left: 32% !important;
         }
     }
+    @-webkit-keyframes slide {
+        100% {
+            left: 32% !important;
+        }
     @keyframes slide {
         100% {
-            left: 32%;
+            left: 32% !important;
         }
     }    
     .site-footer .social {
