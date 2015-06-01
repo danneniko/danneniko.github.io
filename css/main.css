@@ -1520,9 +1520,9 @@ Nav animations
   bottom: 8%;
 }
 .nav-open {
-    -webkit-animation: slide 0.2s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
-    -moz-animation: slide 0.2s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);        
-    animation: slide 0.2s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
     max-height: 500px;
 }
 @-webkit-keyframes slide {
