@@ -1513,9 +1513,6 @@ Nav animations
     z-index: 1;
     padding: 20px 0;
     background:#fff;
-    -webkit-transition: max-height 0.15s cubic-bezier(0.250, 0.100, 0.250, 1.000);
-    -moz-transition: max-height 0.15s cubic-bezier(0.250, 0.100, 0.250, 1.000);
-    transition: max-height 0.15s cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
 .nav-switch-wrapper {
   position: absolute;
@@ -1527,9 +1524,6 @@ Nav animations
     -moz-animation: slide 0.2s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);        
     animation: slide 0.2s forwards cubic-bezier(0.250, 0.100, 0.250, 1.000);
     max-height: 500px;
-    -webkit-transition: max-height 0.2s cubic-bezier(0.250, 0.100, 0.250, 1.000);
-    -moz-transition: max-height 0.2s cubic-bezier(0.250, 0.100, 0.250, 1.000);
-    transition: max-height 0.2s cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
 @-webkit-keyframes slide {
     100% {
