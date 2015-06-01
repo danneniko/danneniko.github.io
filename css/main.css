@@ -1446,6 +1446,7 @@ h1.postheader {
     font-size:2em;
     font-weight:700;
     font-family: "futura-pt", sans-serif;
+    margin-top:0;
 }
 .post h2 {
     font-size:1.4em;
@@ -1511,6 +1512,7 @@ Nav animations
     max-height:0;
     z-index: 1;
     padding: 20px 0;
+    background:#fff;
     -webkit-transition: max-height 0.15s cubic-bezier(0.250, 0.100, 0.250, 1.000);
     -moz-transition: max-height 0.15s cubic-bezier(0.250, 0.100, 0.250, 1.000);
     transition: max-height 0.15s cubic-bezier(0.250, 0.100, 0.250, 1.000);
