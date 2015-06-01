@@ -18,7 +18,7 @@ Först och främst, vad innebär sökoptimering?
 Om du tar en titt på populära sidor/appar idag, såsom [Instagram](http://instagram.com){:target="_blank"}, [Bloomberg](http://www.bloomberg.com/){:target="_blank"}, [dailymotion](http://www.dailymotion.com/){:target="_blank"} etc. Vad har de alla gemensamt?  
 Bland annat har de alla en hel del andra webbplatser som länkar vidare till dem och det finns alltid ett surr kring dem på sociala medier.
 
-Så formeln är enkel.. Om du vill att Google ska rangordna dig högre inom din bransch / nisch handlar allt i princip om att få auktoritet till din webbplats.
+Så formeln är enkel.. Om du vill att Google ska rangordna dig högre inom din bransch/nisch, handlar allt i princip om att få auktoritet till din webbplats.
 
 ### Men hur får vi denna auktoritet?
 
