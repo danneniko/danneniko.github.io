@@ -1469,7 +1469,7 @@ p.cool {
 .postul {
     width: 100%;
     margin: 0 auto;
-    padding: 0;
+    padding-left: 1rem;
 }
 .postul li p {
     width:100%;

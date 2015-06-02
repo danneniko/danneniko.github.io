@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Jun 2015 15:27:10 +0200</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2015 15:27:10 +0200</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2015 10:40:07 +0200</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2015 10:40:07 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -19,10 +19,10 @@
 &lt;h2 id=&quot;grunderna-i-seo&quot;&gt;Grunderna i SEO&lt;/h2&gt;
 &lt;p&gt;Först och främst, vad innebär sökoptimering?&lt;/p&gt;
 
-&lt;p&gt;Om du tar en titt på populära sidor/appar idag, såsom &lt;a href=&quot;http://instagram.com&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt;, &lt;a href=&quot;http://www.bloomberg.com/&quot; target=&quot;_blank&quot;&gt;Bloomberg&lt;/a&gt;, &lt;a href=&quot;http://www.dailymotion.com/&quot; target=&quot;_blank&quot;&gt;dailymotion&lt;/a&gt; etc.&lt;br /&gt;
-Vad har de alla gemensamt? Bland annat har de alla en hel del andra webbplatser som länkar vidare till dem och det finns alltid surr kring dem på sociala medier.&lt;/p&gt;
+&lt;p&gt;Om du tar en titt på populära sidor/appar idag, såsom &lt;a href=&quot;http://instagram.com&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt;, &lt;a href=&quot;http://www.bloomberg.com/&quot; target=&quot;_blank&quot;&gt;Bloomberg&lt;/a&gt;, &lt;a href=&quot;http://www.dailymotion.com/&quot; target=&quot;_blank&quot;&gt;dailymotion&lt;/a&gt; etc. Vad har de alla gemensamt?&lt;br /&gt;
+Bland annat har de alla en hel del andra webbplatser som länkar vidare till dem och det finns alltid ett surr kring dem på sociala medier.&lt;/p&gt;
 
-&lt;p&gt;Så formeln är enkel.. Om du vill att Google ska rangordna dig högre i din bransch / nisch i princip allt handlar om att få auktoritet till din webbplats.&lt;/p&gt;
+&lt;p&gt;Så formeln är enkel.. Om du vill att Google ska rangordna dig högre inom din bransch/nisch, handlar allt i princip om att få auktoritet till din webbplats.&lt;/p&gt;
 
 &lt;h3 id=&quot;men-hur-fr-vi-denna-auktoritet&quot;&gt;Men hur får vi denna auktoritet?&lt;/h3&gt;
 
@@ -60,16 +60,18 @@ Se också till att du uppdaterar hemsidan regelbundet, du kan inte ha ett två �
 &lt;p&gt;En annan sak att tänka på är att se till att alla dina inlägg länkar tillbaka till den sida du vill ranka, troligast din förstasida. Detta är viktigt av den orsaken att om någon länkar till ett av dina inlägg vill du se till att &lt;a href=&quot;http://blog.woorank.com/2013/05/the-flow-of-link-juice/&quot; target=&quot;_blank&quot;&gt;länkkraften&lt;/a&gt; inte går till spillo på ett enda inlägg, utan att den vidarebefordras.&lt;/p&gt;
 
 &lt;p&gt;Du bör dessutom till högsta möjliga grad hålla dig borta från extremt stora bilder och onödiga plugins kan bidra till långa laddningstider. &lt;br /&gt;
-Om webbplatsen tar för lång tid att ladda kan dina besökare få uppfattningen av att du mer eller mindre nonchalerar användarupplevelsen för dem. Du kan testa din webbplats prestanda med Googles &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;PageSpeed Insights&lt;/a&gt;.&lt;/p&gt;
+Om webbplatsen tar för lång tid att ladda kan dina besökare få uppfattningen av att du mer eller mindre nonchalerar användarupplevelsen för dem. Du kan testa din webbplats prestanda med Googles &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot; target=&quot;_blank&quot;&gt;PageSpeed Insights&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;psykologin-bakom-skresultat&quot;&gt;Psykologin bakom sökresultat&lt;/h2&gt;
-&lt;p&gt;I slutändan handlar det hela om digital auktoritet. Stegvis innebär det:
-- Ha en &lt;a href=&quot;https://moz.com/learn/seo/on-page-factors&quot; target=&quot;_blank&quot;&gt;internt optimerad hemsida för SEO&lt;/a&gt;&lt;br /&gt;
-- Se till att du får tillräckligt med &lt;a href=&quot;http://searchengineland.com/guide/seo/social-media-ranking-search-results&quot; target=&quot;_blank&quot;&gt;sociala signaler&lt;/a&gt;&lt;br /&gt;
-- Gör noggrann analys av nyckelord med hjälp av Googles adwords key planner&lt;br /&gt;
-- Identifiering, scanning och köp av auktoritativa domäner (alt. köpa starka länkar från bra källor)
-- Tillhandahåll relaterat innehåll, skicka starka länkar till din sida&lt;br /&gt;
-- Bygg &lt;a href=&quot;http://www.forbes.com/sites/joshsteimle/2013/11/07/simple-seo-tip-for-small-businesses-local-citations/&quot; target=&quot;_blank&quot;&gt;referenser (citations)&lt;/a&gt; för att sprida ut nyckelorden  (OBS! använd dig endast av ditt varumärke eller din URL som nyckelord här)&lt;/p&gt;
+&lt;p&gt;I slutändan handlar det hela om digital auktoritet. Stegvis innebär det:&lt;/p&gt;
+&lt;ul class=&quot;postul&quot;&gt;
+	&lt;li&gt;&lt;p&gt;Ha en &lt;a href=&quot;https://moz.com/learn/seo/on-page-factors&quot; target=&quot;blank&quot;&gt;internt optimerad hemsida för SEO&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;p&gt;Se till att du får tillräckligt med &lt;a href=&quot;http://searchengineland.com/guide/seo/social-media-ranking-search-results&quot; target=&quot;blank&quot;&gt;sociala signaler&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;  
+	&lt;li&gt;&lt;p&gt;Gör noggrann analys av nyckelord med hjälp av Googles adwords key planner&lt;/p&gt;&lt;/li&gt;  
+	&lt;li&gt;&lt;p&gt;Identifiering, scanning och köp av auktoritativa domäner (alt. köpa starka länkar från bra källor)&lt;/p&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;p&gt;Tillhandahåll relaterat innehåll, skicka starka länkar till din sida&lt;/p&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;p&gt;Bygg &lt;a href=&quot;http://www.forbes.com/sites/joshsteimle/2013/11/07/simple-seo-tip-for-small-businesses-local-citations/&quot; target=&quot;blank&quot;&gt;referenser (citations)&lt;/a&gt; för att sprida ut nyckelorden  (OBS! använd dig endast av ditt varumärke eller din URL som nyckelord här)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;hll-dig-uppdaterad&quot;&gt;Håll dig uppdaterad&lt;/h2&gt;
 

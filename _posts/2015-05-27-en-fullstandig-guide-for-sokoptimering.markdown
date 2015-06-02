@@ -56,18 +56,19 @@ Se också till att du uppdaterar hemsidan regelbundet, du kan inte ha ett två �
 En annan sak att tänka på är att se till att alla dina inlägg länkar tillbaka till den sida du vill ranka, troligast din förstasida. Detta är viktigt av den orsaken att om någon länkar till ett av dina inlägg vill du se till att [länkkraften](http://blog.woorank.com/2013/05/the-flow-of-link-juice/){:target="_blank"} inte går till spillo på ett enda inlägg, utan att den vidarebefordras.
 
 Du bör dessutom till högsta möjliga grad hålla dig borta från extremt stora bilder och onödiga plugins kan bidra till långa laddningstider.   
-Om webbplatsen tar för lång tid att ladda kan dina besökare få uppfattningen av att du mer eller mindre nonchalerar användarupplevelsen för dem. Du kan testa din webbplats prestanda med Googles [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/).
+Om webbplatsen tar för lång tid att ladda kan dina besökare få uppfattningen av att du mer eller mindre nonchalerar användarupplevelsen för dem. Du kan testa din webbplats prestanda med Googles [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/){:target="_blank"}.
 
 
 ## Psykologin bakom sökresultat
 I slutändan handlar det hela om digital auktoritet. Stegvis innebär det:
-- Ha en [internt optimerad hemsida för SEO](https://moz.com/learn/seo/on-page-factors){:target="_blank"}  
-- Se till att du får tillräckligt med [sociala signaler](http://searchengineland.com/guide/seo/social-media-ranking-search-results){:target="_blank"}  
-- Gör noggrann analys av nyckelord med hjälp av Googles adwords key planner  
-- Identifiering, scanning och köp av auktoritativa domäner (alt. köpa starka länkar från bra källor)
-- Tillhandahåll relaterat innehåll, skicka starka länkar till din sida  
-- Bygg [referenser (citations)](http://www.forbes.com/sites/joshsteimle/2013/11/07/simple-seo-tip-for-small-businesses-local-citations/){:target="_blank"} för att sprida ut nyckelorden  (OBS! använd dig endast av ditt varumärke eller din URL som nyckelord här)
-
+<ul class="postul">
+	<li><p>Ha en <a href="https://moz.com/learn/seo/on-page-factors" target="blank">internt optimerad hemsida för SEO</a></p></li>
+	<li><p>Se till att du får tillräckligt med <a href="http://searchengineland.com/guide/seo/social-media-ranking-search-results" target="blank">sociala signaler</a></p></li>  
+	<li><p>Gör noggrann analys av nyckelord med hjälp av Googles adwords key planner</p></li>  
+	<li><p>Identifiering, scanning och köp av auktoritativa domäner (alt. köpa starka länkar från bra källor)</p></li>
+	<li><p>Tillhandahåll relaterat innehåll, skicka starka länkar till din sida</p></li>
+	<li><p>Bygg <a href="http://www.forbes.com/sites/joshsteimle/2013/11/07/simple-seo-tip-for-small-businesses-local-citations/" target="blank">referenser (citations)</a> för att sprida ut nyckelorden  (OBS! använd dig endast av ditt varumärke eller din URL som nyckelord här)</p></li>
+</ul>
 
 ## Håll dig uppdaterad
 
