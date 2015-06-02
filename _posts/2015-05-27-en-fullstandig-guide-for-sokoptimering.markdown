@@ -60,7 +60,7 @@ Om webbplatsen tar för lång tid att ladda kan dina besökare få uppfattningen
 
 
 ## Psykologin bakom sökresultat
-I slutändan handlar det hela om digital auktoritet. Stegvis innebär det:
+I slutändan handlar det hela om digital auktoritet. Stegvis innebär det:  
 *   Ha en [internt optimerad hemsida för SEO](https://moz.com/learn/seo/on-page-factors)
 
 *   Se till att du får tillräckligt med [sociala signaler](http://searchengineland.com/guide/seo/social-media-ranking-search-results)
