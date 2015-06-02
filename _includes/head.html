@@ -3,7 +3,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-	<meta property="og:title" content="Daniel Nikolovski" />
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Web / UX / SEO" />
 	<meta property="og:image" content="http://danielnikolovski.com/files/daniel-nikolovski.png" />
@@ -11,7 +11,7 @@
 	<meta name="description" content="{{ site.description }}" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@danneniko" />
-	<meta name="twitter:title" content="Daniel Nikolovski" />
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 	<meta name="twitter:description" content="Web / UX / SEO" />
 	<meta name="twitter:image" content="http://danielnikolovski.com/files/daniel-nikolovski.png" />
 
