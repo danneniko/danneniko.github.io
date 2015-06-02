@@ -8,7 +8,7 @@ twitter_username: danneniko
 github_username:  danneniko
 highlighter: pygments
 encoding: utf-8
-permalink: /:categories/:title
+permalink: /:title
 post_dirs: false
 
 # Build settings
