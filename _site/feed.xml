@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daniel Nikolovski | Webb / UX / SEO</title>
+    <title>Daniel Nikolovski | Web / UX / SEO</title>
     <description>Jag är en webbdesigner från Eslöv, med en brinnande passion för UX &amp; SEO.
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Jun 2015 14:55:58 +0200</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2015 14:55:58 +0200</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2015 15:39:28 +0200</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2015 15:39:28 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -63,10 +63,12 @@ Se också till att du uppdaterar hemsidan regelbundet, du kan inte ha ett två �
 Om webbplatsen tar för lång tid att ladda kan dina besökare få uppfattningen av att du mer eller mindre nonchalerar användarupplevelsen för dem. Du kan testa din webbplats prestanda med Googles &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot; target=&quot;_blank&quot;&gt;PageSpeed Insights&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;psykologin-bakom-skresultat&quot;&gt;Psykologin bakom sökresultat&lt;/h2&gt;
-&lt;p&gt;I slutändan handlar det hela om digital auktoritet. Stegvis innebär det:
-*   Ha en &lt;a href=&quot;https://moz.com/learn/seo/on-page-factors&quot;&gt;internt optimerad hemsida för SEO&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I slutändan handlar det hela om digital auktoritet. Stegvis innebär det:&lt;/p&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ha en &lt;a href=&quot;https://moz.com/learn/seo/on-page-factors&quot;&gt;internt optimerad hemsida för SEO&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Se till att du får tillräckligt med &lt;a href=&quot;http://searchengineland.com/guide/seo/social-media-ranking-search-results&quot;&gt;sociala signaler&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
