@@ -61,14 +61,17 @@ Om webbplatsen tar för lång tid att ladda kan dina besökare få uppfattningen
 
 ## Psykologin bakom sökresultat
 I slutändan handlar det hela om digital auktoritet. Stegvis innebär det:
-<ul class="postul">
-	<li><p>Ha en <a href="https://moz.com/learn/seo/on-page-factors" target="blank">internt optimerad hemsida för SEO</a></p></li>
-	<li><p>Se till att du får tillräckligt med <a href="http://searchengineland.com/guide/seo/social-media-ranking-search-results" target="blank">sociala signaler</a></p></li>  
-	<li><p>Gör noggrann analys av nyckelord med hjälp av Googles adwords key planner</p></li>  
-	<li><p>Identifiering, scanning och köp av auktoritativa domäner (alt. köpa starka länkar från bra källor)</p></li>
-	<li><p>Tillhandahåll relaterat innehåll, skicka starka länkar till din sida</p></li>
-	<li><p>Bygg <a href="http://www.forbes.com/sites/joshsteimle/2013/11/07/simple-seo-tip-for-small-businesses-local-citations/" target="blank">referenser (citations)</a> för att sprida ut nyckelorden  (OBS! använd dig endast av ditt varumärke eller din URL som nyckelord här)</p></li>
-</ul>
+*   Ha en [internt optimerad hemsida för SEO](https://moz.com/learn/seo/on-page-factors)
+
+*   Se till att du får tillräckligt med [sociala signaler](http://searchengineland.com/guide/seo/social-media-ranking-search-results)
+
+*   Gör noggrann analys av nyckelord med hjälp av Googles adwords key planner
+
+*   Identifiering, scanning och köp av auktoritativa domäner (alt. köpa starka länkar från bra källor)
+
+*   Tillhandahåll relaterat innehåll, skicka starka länkar till din sida
+
+*   Bygg [referenser (citations)](http://www.forbes.com/sites/joshsteimle/2013/11/07/simple-seo-tip-for-small-businesses-local-citations/) för att sprida ut nyckelorden (OBS! använd dig endast av ditt varumärke eller din URL som nyckelord här)
 
 ## Håll dig uppdaterad
 

@@ -1474,8 +1474,14 @@ p.cool {
 .postul li p {
     width:100%;
 }
-
-
+.post ul {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 1rem;
+}
+.post ul li p {
+    width:100%;
+}
 /* ===============================
 Nav animations
 =============================== */
@@ -1795,6 +1801,9 @@ nav a:nth-child(3) {
         float: right;
     }
     .postul {
+        width: 60%;
+    }
+    .post ul {
         width: 60%;
     }
     .post h1,
