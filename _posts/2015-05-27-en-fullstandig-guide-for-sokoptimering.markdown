@@ -72,7 +72,7 @@ I slutändan handlar det hela om digital auktoritet. Stegvis innebär det:
 
 *   Tillhandahåll relaterat innehåll, skicka starka länkar till din sida
 
-*   Bygg [referenser (citations)](http://www.forbes.com/sites/joshsteimle/2013/11/07/simple-seo-tip-for-small-businesses-local-citations/) för att sprida ut nyckelorden (OBS! använd dig endast av ditt varumärke eller din URL som nyckelord här)
+*   Sprid ut din anchor text ratio för dina keywords med brand, URL m.m.
 
 ## Håll dig uppdaterad
 

@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daniel Nikolovski | Web / UX / SEO</title>
-    <description>Jag är en webbdesigner från Eslöv, med en brinnande passion för UX &amp; SEO.
+    <description>Jag är en front end designer från Eslöv, med en brinnande passion för UX &amp; SEO.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Jun 2015 15:39:28 +0200</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2015 15:39:28 +0200</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://danielnikolovski.com/</link>
+    <atom:link href="http://danielnikolovski.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 05 Jun 2015 02:52:18 +0200</pubDate>
+    <lastBuildDate>Fri, 05 Jun 2015 02:52:18 +0200</lastBuildDate>
+    <generator>Jekyll v2.3.0</generator>
     
       <item>
         <title>En fullständig guide för sökoptimering</title>
@@ -33,7 +33,7 @@ Visst kan du bygga bra innehåll och hoppas att det kommer att skapa ett surr, m
 &lt;p&gt;Jag talar om att få kraftfulla webbplatser att länka till din webbplats. Ett sätt är att skapa intressant innehåll som ger mervärde till andra i din bransch. Om du lyckas skapa fantastiskt innehåll så finns där en viss chans att andra bloggar och kraftfulla webbplatser kommer vilja hänvisa till dig, och eventuellt även &lt;a href=&quot;https://moz.com/blog/the-10-golden-rules-to-attracting-authority-links&quot; target=&quot;_blank&quot;&gt;skicka en länk eller två till din webbplats&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;finns-det-inget-annat-stt&quot;&gt;Finns det inget annat sätt?&lt;/h3&gt;
-&lt;p&gt;Varning: Vidta extrem försiktighet! Om du inte vet vad du gör kan du i slutändan få din webbplats &lt;a href=&quot;http://www.wordtracker.com/academy/learn-seo/technical-guides/panda-slapped-quality-sites&quot; target=&quot;_blank&quot;&gt;bannlyst av Google&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Varning: Vidta extrem försiktighet! Om du inte vet vad du gör kan du i slutändan få din webbplats &lt;a href=&quot;http://www.wordtracker.com/academy/learn-seo/technical-guides/panda-slapped-quality-sites&quot; target=&quot;_blank&quot;&gt;bannlyst av Google&lt;/a&gt;.  &lt;/p&gt;
 
 &lt;p&gt;Med det sagt, så finns det även &lt;a href=&quot;http://source-wave.com/how-to-build-a-blog-networ/&quot; target=&quot;_blank&quot;&gt;en lite mörkare väg att gå&lt;/a&gt;.
 Vilket innebär att man kan köpa kraftfulla domäner från auktioner, bygga relevant innehåll på dessa och skicka länkar från dessa domäner till din egna sida.&lt;/p&gt;
@@ -63,7 +63,7 @@ Se också till att du uppdaterar hemsidan regelbundet, du kan inte ha ett två �
 Om webbplatsen tar för lång tid att ladda kan dina besökare få uppfattningen av att du mer eller mindre nonchalerar användarupplevelsen för dem. Du kan testa din webbplats prestanda med Googles &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot; target=&quot;_blank&quot;&gt;PageSpeed Insights&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;psykologin-bakom-skresultat&quot;&gt;Psykologin bakom sökresultat&lt;/h2&gt;
-&lt;p&gt;I slutändan handlar det hela om digital auktoritet. Stegvis innebär det:&lt;/p&gt;
+&lt;p&gt;I slutändan handlar det hela om digital auktoritet. Stegvis innebär det:  &lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -82,7 +82,7 @@ Om webbplatsen tar för lång tid att ladda kan dina besökare få uppfattningen
     &lt;p&gt;Tillhandahåll relaterat innehåll, skicka starka länkar till din sida&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Bygg &lt;a href=&quot;http://www.forbes.com/sites/joshsteimle/2013/11/07/simple-seo-tip-for-small-businesses-local-citations/&quot;&gt;referenser (citations)&lt;/a&gt; för att sprida ut nyckelorden (OBS! använd dig endast av ditt varumärke eller din URL som nyckelord här)&lt;/p&gt;
+    &lt;p&gt;Sprid ut din anchor text ratio för dina keywords med brand, URL m.m.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -93,8 +93,8 @@ Om webbplatsen tar för lång tid att ladda kan dina besökare få uppfattningen
 &lt;p&gt;Lycka till!&lt;/p&gt;
 </description>
         <pubDate>Wed, 27 May 2015 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/en-fullstandig-guide-for-sokoptimering</link>
-        <guid isPermaLink="true">http://localhost:4000/en-fullstandig-guide-for-sokoptimering</guid>
+        <link>http://danielnikolovski.com/en-fullstandig-guide-for-sokoptimering</link>
+        <guid isPermaLink="true">http://danielnikolovski.com/en-fullstandig-guide-for-sokoptimering</guid>
         
         
         <category>artiklar</category>
