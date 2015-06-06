@@ -1,0 +1,81 @@
+---
+title:  "Sociala signaler live case study"
+---
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Web / UX / SEO" />
+    <meta property="og:image" content="http://danielnikolovski.com/files/daniel-nikolovski.png" />
+    <meta name="thumbnail" content="http://danielnikolovski.com/files/daniel-nikolovski-plus.png" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@danneniko" />
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="twitter:description" content="Web / UX / SEO" />
+    <meta name="twitter:image" content="http://danielnikolovski.com/files/daniel-nikolovski.png" />
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="{{ "/sociala-signaler-live-case-study/assets/style/base.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <script type="text/javascript" src="//use.typekit.net/uca4rfy.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50633647-4', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+
+  <body class="container">
+
+    {% include header.html %}
+
+    <main class="mainContent">
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon"><img src="assets/images/star.svg" alt=""></div>
+          <div class="timeline-content">
+            <h2>6 Juni 2015</h2>
+            <h6>Publicerade <a href="http://rankify.github.io/how-did-hulk-become-a-superhero/">artikeln</a>.</h6>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"><img src="assets/images/star.svg" alt=""></div>
+          <div class="timeline-content right">
+            <h2>3 Juni 2015</h2>
+            <h6>Satte upp sidan <a href="http://rankify.github.io" target="blank">rankify.github.io</a>.</h6>
+          </div>
+        </div>
+      </div>
+      <div class="timelineheading">
+        <h2>Sociala signaler live case study</h2>
+        <h6>Är sociala signaler en rankfaktor hos google? Jag har satt upp en sida som ska få agera försökskanin. Jag testar mot följande nyckelord:
+        <ul>
+          <li><h6>how did hulk become a superhero</h6></li>
+          <li><h6>where did the hulk come from</h6></li>
+          <li><h6>abomination from the incredible hulk</h6></li>
+        </ul>
+      </div>
+      <a href="{{ site.url }}">Se fler projekt</a>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
