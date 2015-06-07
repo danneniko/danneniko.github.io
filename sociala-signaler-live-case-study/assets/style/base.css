@@ -142,7 +142,7 @@ a {
 }
 @media screen and (max-width: 768px) {
     .timeline {
-    margin: 20px;
+    margin-left: 20px;
     padding: 0;
     }
     .timeline:before {
