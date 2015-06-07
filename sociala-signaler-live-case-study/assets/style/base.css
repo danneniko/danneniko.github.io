@@ -142,14 +142,14 @@ a {
 }
 @media screen and (max-width: 768px) {
     .timeline {
-    margin: 30px;
+    margin: 20px;
     padding: 0;
     }
     .timeline:before {
         left: 0;
     }
     .timeline .timeline-item .timeline-content {
-        width: 90%;
+        width: 85%;
         float: right;
     }
     .timeline .timeline-item .timeline-content:before, .timeline .timeline-item .timeline-content.right:before {
