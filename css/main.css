@@ -1589,6 +1589,12 @@ nav a:nth-child(3) {
     -moz-animation-delay: .39s
     animation-delay: .39s
 }
+.max100 {
+    max-width:100%;
+}
+.lb-data .lb-caption {
+    display:none;
+}
 @media (min-width: 767px) {
     /* ===============================
     Posts

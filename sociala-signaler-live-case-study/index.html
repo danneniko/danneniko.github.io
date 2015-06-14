@@ -23,10 +23,11 @@ title:  "Sociala signaler live case study"
     <link rel="stylesheet" href="{{ "/sociala-signaler-live-case-study/assets/style/base.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
+    <link href="css/lightbox.css" rel="stylesheet" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-
+    <script src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/uca4rfy.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script type="text/javascript" src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
@@ -41,12 +42,23 @@ title:  "Sociala signaler live case study"
     </script>
   </head>
 
-  <body class="container">
-
-    {% include header.html %}
-
-    <main class="mainContent">
+  <body>
+    <div class="container">
+      {% include header.html %}
+    </div>
+    <main class="mainContent container">
       <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon"><img src="assets/images/star.svg" alt=""></div>
+          <div class="timeline-content right">
+            <h2>3 Juni 2015</h2>
+            <h6>Artikeln är nu indexerad och rankad, inväntar stabilisering av ranken.</h6>
+            
+            <a href="assets/images/rankify.png" data-lightbox="rankify">
+              <img class="max100" src="assets/images/rankify.png">
+            </a>
+          </div>
+        </div>        
         <div class="timeline-item">
           <div class="timeline-icon"><img src="assets/images/star.svg" alt=""></div>
           <div class="timeline-content">
@@ -73,9 +85,9 @@ title:  "Sociala signaler live case study"
       </div>
       <a href="{{ site.url }}">Se fler projekt</a>
     </main>
-
-    {% include footer.html %}
-
+    <div class="container">
+      {% include footer.html %}
+    </div>
   </body>
 
 </html>

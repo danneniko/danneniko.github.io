@@ -149,11 +149,11 @@ a {
         left: 0;
     }
     .timeline .timeline-item .timeline-content {
-        width: 90%;
+        width: 85%;
         float: right;
     }
     .timeline .timeline-item .timeline-content:before, .timeline .timeline-item .timeline-content.right:before {
-        left: 10%;
+        left: 15%;
         margin-left: -6px;
         border-left: 0;
         border-right: 7px solid #222;
