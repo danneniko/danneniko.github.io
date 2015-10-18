@@ -22,9 +22,9 @@
 	  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
 	{% endif %}
 	{% if page.image %}
-	  <meta content="/img/socialimages/{{ page.image }}" property="og:image">
+	  <meta content="{{ "/img/socialimages/{{ page.image }}" | prepend: site.baseurl }}" property="og:image">
 	{% else %}
-	  <meta content="/files/daniel-nikolovski.png" property="og:image">
+	  <meta content="{{ "/files/daniel-nikolovski.png" | prepend: site.baseurl }}" property="og:image">
 	{% endif %}
 	{% if page.categories %}
 	  {% for category in page.categories limit:1 %}
