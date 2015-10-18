@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Daniel Nikolovski | Webb / UX / SEO
-active: artiklar
+active: articles
 ---
 
 <div class="colWrapper">
@@ -18,16 +18,16 @@ active: artiklar
         {% assign m = post.date | date: "%-m" %}
           {{ post.date | date: "%-d" }}
             {% case m %}
-            {% when '1' %}Januari
-            {% when '2' %}Februari
-            {% when '3' %}Mars
+            {% when '1' %}January
+            {% when '2' %}February
+            {% when '3' %}March
             {% when '4' %}April
-            {% when '5' %}Maj
-            {% when '6' %}Juni
-            {% when '7' %}Juli
-            {% when '8' %}Augusti
+            {% when '5' %}May
+            {% when '6' %}June
+            {% when '7' %}Juliy
+            {% when '8' %}August
             {% when '9' %}September
-            {% when '10' %}Oktober
+            {% when '10' %}October
             {% when '11' %}November
             {% when '12' %}December
             {% endcase %}
@@ -37,7 +37,7 @@ active: artiklar
 
         <h6>{{ post.excerpt | truncatewords:35 }}</h6>
         <p class="default">
-          <a href="{{ post.url }}">Läs mer</a>
+          <a href="{{ post.url }}">Read full article</a>
         </p>
 
       </li>

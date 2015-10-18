@@ -1267,7 +1267,7 @@ div.box {
     margin-top: 1em;
 }
 .site-footer .social .fa {
-    padding: 0 5px;
+    padding: 0 7px;
     font-size: 30px;
     color: #222;
     transition: color .15s ease-out;
@@ -1276,6 +1276,13 @@ div.box {
 }
 .site-footer .social .fa:hover {
     color: #222;
+    opacity: 0.8;
+}
+.site-footer .social img {
+    vertical-align: bottom;
+    padding:0 5px;
+}
+.site-footer .social img:hover {
     opacity: 0.8;
 }
 .pagenav {
@@ -1342,6 +1349,12 @@ p.default {
     font-weight: 100;
     font-size: 20px;
     margin-bottom: 10px;
+}
+.presentation figcaption {
+    text-align: center;
+    font-size:16px;
+    font-weight: 100;
+    font-family: "futura-pt", sans-serif;
 }
 /* =============================================================================
   Nav toggle
