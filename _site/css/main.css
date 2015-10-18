@@ -1208,6 +1208,9 @@ div.box {
     background: #fff;
     padding: 30px;
 }
+.box.ustwo {
+    background: #6114cc;
+}
 /* ===============================
    Work
    =============================== */
