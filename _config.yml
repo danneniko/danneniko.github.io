@@ -14,3 +14,4 @@ post_dirs: false
 
 # Build settings
 markdown: kramdown
+relative_permalinks: true

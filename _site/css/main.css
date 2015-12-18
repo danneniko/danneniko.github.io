@@ -1440,6 +1440,13 @@ ul.post-list {
 ul.post-list li {
     display:block;
     list-style:none;
+    margin:50px 0;
+}
+ul.post-list li:first-child {
+    margin-top:0;
+}
+ul.post-list li:last-child {
+    margin-bottom:0;
 }
 ul.post-list .post-thumbnail {
     float:left;
@@ -1830,6 +1837,13 @@ nav a:nth-child(3) {
     }
     .post ul {
         width: 60%;
+    }
+    ol {
+        width:60%;
+        margin:0 auto;
+        font-family: "garamond-premier-pro", serif;
+        font-size: 24px;
+        font-weight: 400;        
     }
     .post h1,
     .post h2,
