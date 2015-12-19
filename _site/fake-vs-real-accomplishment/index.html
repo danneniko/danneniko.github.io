@@ -70,7 +70,14 @@
 
 
   <body class="container">
-
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.5&appId=1580649428855915";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <header class="cf">
   <div class="upperheader cf">
   <a href="http://danielnikolovski.com" class="logo"><h1>Daniel <br>Nikolovski</h1></a>
@@ -147,6 +154,13 @@
 
 <p>If you like my stuff, feel free to follow me on <a href="https://twitter.com/danneniko" target="_blank">twitter</a> &amp; <a href="https://www.facebook.com/danielnikolovskicom" target="_blank">facebook</a>.</p>
 
+          <div class="socialshare">
+          <div class="fb-share-button" data-href="http://danielnikolovski.com/fake-vs-real-accomplishment" data-layout="button"></div>                      
+          <a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="danneniko">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<g:plus action="share"></g:plus>          
+          </div>
       </div>
     </main>
     <!-- 
