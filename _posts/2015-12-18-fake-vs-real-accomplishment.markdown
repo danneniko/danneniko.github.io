@@ -32,12 +32,12 @@ Or have you ever had nights where you stayed up all night to watch a whole bunch
 
 ![alt text](/img/accomplish.gif){: .full-width-img }
 
-The worst way to hack your brain thinking you’re accomplishing something is probably gaming. Nowadays games are so easy to access through your mobile. They are full with “accomplishments” which you can achieve. Because it is just so “important” to get more and more and more and more achievements. It’s just hacking ourselves into thinking we’re actually achieving something real.
+The worst way to hack your brain thinking you’re accomplishing something is probably gaming. Nowadays games are so easy to access through your mobile. They are full of “accomplishments” which you can achieve. Because it is just so “important” to get more and more and more and more achievements. It’s just hacking ourselves into thinking we’re actually achieving something real.
 
 Now of course I’m not saying never to enjoy yourself with recreational activities, one certainly must have ways to de-stress in order to not get burned out. In order to maximize productivity however, one should be aware of overexposure to small comfort-zone traps or even self-imposed mind tricks of this kind.
 
 Hell even the urge to scroll through your social media accounts feels like something we simply must do nowadays. Now scrolling through facebook or any other social platform might be part of your brand strategy but you get the point.
 
-Now maybe I’m speaking just for myself here, I am in no way a neuroscientific researcher or so but I know for certain I’m not the only one with the strong desire to accomplish.
+Maybe I’m speaking just for myself here, I am in no way a neuroscientific researcher or so but I know for certain I’m not the only one with the strong desire to accomplish.
 
 If you like my stuff, feel free to follow me on [twitter](https://twitter.com/danneniko){:target="_blank"} & [facebook](https://www.facebook.com/danielnikolovskicom){:target="_blank"}.
