@@ -6,13 +6,13 @@ category: Productivity
 next_page: page.next
 previous_page: page.previous
 thumbnail: /img/postimg/accomplishment.svg
-excerpt: I just started reading Cashvertising which was recommended to me by the successful internet marketer Charles Ngo, it is absolutely mindblowing. In the book, Whitman mentions the 8 desires which are biologically programmed in all of us.
+excerpt: I just started reading Cashvertising which was recommended to me by the successful internet marketer Charles Ngo, it is absolutely mindblowing. In the book, Whitman mentions the 8 desires we all have biologically programmed in us.
 ---
 #{{ page.title }}
 
 I just started reading [Cashvertising](http://amzn.com/1601630328/?tag=danienikol-20){:target="_blank"} which was recommended to me by the successful internet marketer [Charles Ngo](http://charlesngo.com/){:target="_blank"}. I can recommend anyone interested in marketing or basic human psychology to pick it up, it is absolutely mindblowing.
 
-In the book, Whitman mentions the 8 desires which are biologically programmed in all of us.
+In the book, Whitman mentions the 8 desires we all have biologically programmed in us.
 
 
 1. Survival, enjoyment of life, life extension.
