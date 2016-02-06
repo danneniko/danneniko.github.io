@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
 url: "http://danielnikolovski.com"
 twitter_username: danneniko
 github_username:  danneniko
-highlighter: pygments
+highlighter: rouge
 encoding: utf-8
 permalink: /:title
 post_dirs: false
