@@ -8,7 +8,7 @@ previous_page: page.previous
 thumbnail: /img/postimg/seoicon.svg
 excerpt: What’s the use of doing brilliant web craft if nobody can find your work? In this guide, I will explain what SEO is, how it works, and also share some tips and tricks that SEO experts usually keep to themselves. I will try to keep it so that both beginners & advanced SEOs can benefit from my thoughts & ideas.
 ---
-#{{ page.title }}
+# The Go-To Guide for Successful SEO
 
 What’s the use of doing brilliant web craft if nobody can find your work?
 
