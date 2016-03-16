@@ -5,6 +5,38 @@ active: portfolio
 ---
 
 <div class="colWrapper">
+  <a class="box h5 pfcard" href="http://h5.fr">
+    <figure>
+    <span class="kmrsnart">Coming soon!</span>      
+    <img class="portfolioItem" src="img/masonryitems/h5.svg" alt="H5">
+      <figcaption>
+        <h3>H5</h3>
+        <span>WP Development</span>
+      </figcaption>
+    </figure>
+  </a>
+  <a class="box donii pfcard" href="http://donii.org">
+    <figure>
+    <span class="kmrsnart">Coming soon!</span>      
+    <img class="portfolioItem" src="img/masonryitems/donii.svg" alt="Donii">
+      <figcaption>
+        <h3>Donii</h3>
+        <span>UI/UX Design &amp; AngularJS development</span>
+      </figcaption>
+    </figure>
+  </a>
+  <div class="box postcard pfcard">
+    {% for post in site.posts limit:1 %}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h6 class="hidden-lg">{{ post.excerpt | truncatewords:16 }}</h6>
+      <h6 class="visible-lg">{{ post.excerpt | truncatewords:35 }}</h6>      
+      <div class="presentation">
+        <p class="default">
+          <a href="{{ post.url }}">Read full article</a>
+        </p>
+      </div>
+    {% endfor %}
+  </div>  
   <a class="box ustwo pfcard" href="ustwo">
     <figure>
     <img class="portfolioItem" src="img/masonryitems/ustwo.svg" alt="UsTwo">
@@ -23,18 +55,7 @@ active: portfolio
       </figcaption>
     </figure>
   </a>  
-  <div class="box postcard pfcard">
-    {% for post in site.posts limit:1 %}
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <h6 class="hidden-lg">{{ post.excerpt | truncatewords:16 }}</h6>
-      <h6 class="visible-lg">{{ post.excerpt | truncatewords:35 }}</h6>      
-      <div class="presentation">
-        <p class="default">
-          <a href="{{ post.url }}">Read full article</a>
-        </p>
-      </div>
-    {% endfor %}
-  </div>  
+
   <a class="box plockepinn pfcard" href="plockepinn">
     <figure>
     <img class="portfolioItem" src="img/masonryitems/plockepinn.png" alt="Plockepinn">
@@ -62,30 +83,12 @@ active: portfolio
         </figcaption>
       </figure>
   </a>
-  <a class="box lemonbite pfcard" href="lemonbite">
-    <figure>
-    <img class="portfolioItem" src="img/masonryitems/lemonbite.png" alt="Lemonbite">
-      <figcaption>
-        <h3>Lemonbite</h3>
-        <span>Design &amp; Development</span>
-      </figcaption>
-    </figure>
-  </a>
   <a class="box bagasell pfcard" href="bagasell">
     <figure>
     <img class="portfolioItem" src="img/masonryitems/bagasell.png" alt="Bagasell">
       <figcaption>
         <h3>Bagasell</h3>
         <span>Design &amp; Project Management</span>
-      </figcaption>
-    </figure>
-  </a>
-  <a class="box fifa pfcard" href="fifa">
-    <figure>
-    <img class="portfolioItem" src="img/masonryitems/fifa.png" alt="Fifa companion app">
-      <figcaption>
-        <h3>FIFA Companion App</h3>
-        <span>Design &amp; Development</span>
       </figcaption>
     </figure>
   </a>

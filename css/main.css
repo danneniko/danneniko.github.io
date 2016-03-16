@@ -1202,7 +1202,7 @@ div.box {
     background: #F57F17;
 }
 .box.glorias {
-    background: #212121;
+    background: #047441;
 }
 .box.postcard {
     background: #fff;
@@ -1210,6 +1210,12 @@ div.box {
 }
 .box.ustwo {
     background: #6114cc;
+}
+.box.h5 {
+    background: #212121;
+}
+.box.donii {
+    background: #099A8B;
 }
 .fb_iframe_widget_fluid {
     display: inline-block !important;
@@ -1814,6 +1820,9 @@ nav a:nth-child(3) {
         transition: transform 0.4s ease-in-out;
         max-width: 100%;
         width: 70%;
+    }
+    .box.h5 figure img {
+        width:100%;
     }
     .box figure:hover img {
         overflow: inherit;
