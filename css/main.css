@@ -1905,17 +1905,21 @@ nav a:nth-child(3) {
         margin-left: auto;
         margin-right: auto;
     }
-    .contact p > a {
+    .contact p > a,
+    a.footerlink {
         text-decoration: none;
         position: relative;
         display: inline-block;
         text-align: center;
     }
     .contact p > a:hover,
-    .contact p > a:focus {
+    .contact p > a:focus,
+    a.footerlink:hover, 
+    a.footerlink:focus {
         outline: none;
     }
-    .contact p > a:before {
+    .contact p > a:before,
+    a.footerlink:before {
         position: absolute;
         top: 100%;
         left: 0;
@@ -1932,7 +1936,9 @@ nav a:nth-child(3) {
         transform: translateY(10px);
     }
     .contact p > a:hover:before,
-    .contact p > a:focus:before {
+    .contact p > a:focus:before,
+    a.footerlink:hover:before, 
+    a.footerlink:focus:before {
         opacity: 1;
         -webkit-transform: translateY(0px);
         -moz-transform: translateY(0px);
