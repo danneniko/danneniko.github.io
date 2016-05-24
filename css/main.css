@@ -1354,8 +1354,7 @@ div#___plus_0 {
     margin-bottom: 24px;
 }
 .presentation p > a,
-.default a,
-a.footerlink {
+.default a {
     position: relative;
     font-weight: 400;
     text-align: center;
