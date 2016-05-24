@@ -34,7 +34,7 @@ I am talking about getting powerful websites to link to your site. One way is to
 
 Disclaimer: Be extremely careful! If you don’t know what you are doing you might end up getting your website [slapped by Google](http://www.wordtracker.com/academy/learn-seo/technical-guides/panda-slapped-quality-sites){:target="_blank"}.
 
-With that said, there is a [darker path to go](http://source-wave.com/how-to-build-a-blog-networ/){:target="_blank"}. You could buy powerful domains from domain auctions, build related content on these sites, and create links from there to your own website.
+With that said, there is a quicker path to take. You could buy powerful domains from domain auctions, build related content on these sites, and create links from there to your own website. Or if you don't have the time and resources, you can just buy some [high authority backlinks](http://grindtime.io/premium-backlinks/).
 
 It is, however, rather time-consuming to identify and scan websites for high authority. Also, the majority of sites sold on auctions are spammy domains that would do more harm than good. But if you dig deep enough, you can undeniably find powerful websites. There are also great tools out there that can make this process easier.
 
