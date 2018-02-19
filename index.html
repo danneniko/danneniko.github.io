@@ -1,95 +1,64 @@
----
-layout: default
-title: Daniel Nikolovski | Web / UX / SEO
-active: portfolio
----
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Daniel Nikolovski SEO</title>
+        <meta name="description" content="I do SEO and mainly work on my personal projects. If you've got a cool project, reach out.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.typekit.net/hve3qny.css">
+    </head>
+    <style>
+      html, body {
+        height:100%;
+        font-family: "mr-eaves-modern",sans-serif;
+        font-weight:300;
+      }
+      body {
+        background: #e0e0e0;
+      }
+      p>span {
+        color: #037933;
+      }
+      .container {
+        height: 100%;
+        padding:40px;
+        margin:0 auto;
+        max-width:768px;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+      }
+      p,a  {
+        color: #39463c;
+        font-family: "mr-eaves-modern",sans-serif;
+        font-weight:300;
+      }
+      p {
+          font-size: 35px;
+      }
 
-<div class="colWrapper">
-  <a class="box h5 pfcard" href="http://h5.fr">
-    <figure>
-    <span class="kmrsnart">Coming soon!</span>      
-    <img class="portfolioItem" src="img/masonryitems/h5.svg" alt="H5">
-      <figcaption>
-        <h3>H5</h3>
-        <span>WP Development</span>
-      </figcaption>
-    </figure>
-  </a>
-  <a class="box donii pfcard" href="http://donii.org">
-    <figure>
-    <span class="kmrsnart">Coming soon!</span>      
-    <img class="portfolioItem" src="img/masonryitems/donii.svg" alt="Donii">
-      <figcaption>
-        <h3>Donii</h3>
-        <span>UI/UX Design &amp; AngularJS development</span>
-      </figcaption>
-    </figure>
-  </a>
-  <div class="box postcard pfcard">
-    {% for post in site.posts limit:1 %}
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <h6 class="hidden-lg">{{ post.excerpt | truncatewords:16 }}</h6>
-      <h6 class="visible-lg">{{ post.excerpt | truncatewords:35 }}</h6>      
-      <div class="presentation">
-        <p class="default">
-          <a href="{{ post.url }}">Read full article</a>
-        </p>
+      .container > div {
+        max-width: 100%;
+      }    
+    </style>
+    <body>
+      <div class="container">
+        <div>
+          <p>Hi, I'm <span>Daniel Nikolovski</span>. I do SEO and I mainly work on my personal projects. If you've got a cool project, <a href="mailto:hello@danielnikolovski.com">reach out</a>.</p>
+
+          <p>Brands I'm proud to have worked with: <a href="http://h5.fr/">H5</a>, <a href="http://ustwo.com/">UsTwo</a>, <a href="https://www.catenamedia.com">Catena Media</a>, <a href="https://bettercollective.com/">Better Collective</a> &amp; many more.
+        </div>
       </div>
-    {% endfor %}
-  </div>  
-  <a class="box ustwo pfcard" href="ustwo">
-    <figure>
-    <img class="portfolioItem" src="img/masonryitems/ustwo.svg" alt="UsTwo">
-      <figcaption>
-        <h3>UsTwo</h3>
-        <span>WP/AngularJS Development</span>
-      </figcaption>
-    </figure>
-  </a>
-  <a class="box siriusrestaurangen pfcard" href="siriusrestaurangen">
-    <figure>
-    <img class="portfolioItem" src="img/masonryitems/siriusrestaurangen.svg" alt="Siriusrestaurangen">
-      <figcaption>
-        <h3>Siriusrestaurangen</h3>
-        <span>UX / WP Design &amp; Development</span>
-      </figcaption>
-    </figure>
-  </a>  
 
-  <a class="box plockepinn pfcard" href="plockepinn">
-    <figure>
-    <img class="portfolioItem" src="img/masonryitems/plockepinn.png" alt="Plockepinn">
-      <figcaption>
-        <h3>Plockepinn</h3>
-        <span>Responsive Design / WP Development</span>
-      </figcaption>
-    </figure>
-  </a>  
-  <a class="box glorias pfcard" href="glorias">
-    <figure>
-    <img class="portfolioItem" src="img/masonryitems/glorias.png" alt="Glorias">
-      <figcaption>
-        <h3>Glorias</h3>
-        <span>Mobile Optimization</span>
-      </figcaption>
-    </figure>
-  </a>
-  <a class="box landgren pfcard" href="peterlandgren">
-      <figure>
-      <img class="portfolioItem" src="img/masonryitems/peterlandgren.svg" alt="Peter Landgren">
-        <figcaption>
-          <h3>Peter Landgren &amp; co</h3>
-          <span>Mobile Optimization</span>
-        </figcaption>
-      </figure>
-  </a>
-  <a class="box bagasell pfcard" href="bagasell">
-    <figure>
-    <img class="portfolioItem" src="img/masonryitems/bagasell.png" alt="Bagasell">
-      <figcaption>
-        <h3>Bagasell</h3>
-        <span>Design &amp; Project Management</span>
-      </figcaption>
-    </figure>
-  </a>
-</div>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-50633647-4', 'auto');
+          ga('send', 'pageview');
+        </script>
+    </body>
+</html>
